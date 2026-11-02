@@ -1,72 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="100%" height="100%" role="img" aria-labelledby="timelineTitle timelineDesc">
-  <title id="timelineTitle">Engineering &amp; Leadership Journey — Akandwanaho Ivan Alvin</title>
-  <desc id="timelineDesc">Thematic career progression from applied software foundation to 4codex Technologies, Waanverse Labs CTO role, Codesphere Innovations, Funa Gigs, and open-source flagships.</desc>
-  <defs>
-    <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070d19" />
-      <stop offset="100%" stop-color="#0d182c" />
-    </linearGradient>
-    <linearGradient id="tTrack" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e3a5f" />
-      <stop offset="60%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#f59e0b" />
-    </linearGradient>
-  </defs>
-
-  <rect width="1200" height="210" rx="14" fill="url(#tBg)" stroke="#1e3a5f" stroke-width="1.5" />
-
-  <text x="44" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#f59e0b" letter-spacing="1.6">
-    THEMATIC ENGINEERING &amp; LEADERSHIP PROGRESSION
-  </text>
-
-  <!-- Horizontal Connecting Track -->
-  <line x1="90" y1="92" x2="1110" y2="92" stroke="url(#tTrack)" stroke-width="3" />
-
-  <!-- Stage 1 -->
-  <g transform="translate(44, 68)">
-    <circle cx="46" cy="24" r="9" fill="#0b1528" stroke="#38bdf8" stroke-width="3" />
-    <text x="0" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">01. Foundation</text>
-    <text x="0" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">ISBAT University &amp;</text>
-    <text x="0" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Business Systems</text>
-  </g>
-
-  <!-- Stage 2 -->
-  <g transform="translate(238, 68)">
-    <circle cx="46" cy="24" r="9" fill="#0b1528" stroke="#38bdf8" stroke-width="3" />
-    <text x="0" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">02. Entrepreneurship</text>
-    <text x="0" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Founder, 4codex</text>
-    <text x="0" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Technologies</text>
-  </g>
-
-  <!-- Stage 3 -->
-  <g transform="translate(432, 68)">
-    <circle cx="46" cy="24" r="9" fill="#0b1528" stroke="#38bdf8" stroke-width="3" />
-    <text x="0" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">03. Tech Leadership</text>
-    <text x="0" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Former CTO &amp; Head of Eng</text>
-    <text x="0" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#64748b">Waanverse Labs (to Mar 2025)</text>
-  </g>
-
-  <!-- Stage 4 -->
-  <g transform="translate(640, 68)">
-    <circle cx="46" cy="24" r="10" fill="#f59e0b" stroke="#0b1528" stroke-width="3" />
-    <text x="0" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">04. Company Leadership</text>
-    <text x="0" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#e2e8f0">Founder &amp; Managing Director</text>
-    <text x="0" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Codesphere Innovations (U) Ltd</text>
-  </g>
-
-  <!-- Stage 5 -->
-  <g transform="translate(848, 68)">
-    <circle cx="46" cy="24" r="10" fill="#38bdf8" stroke="#0b1528" stroke-width="3" />
-    <text x="0" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">05. Product Engineering</text>
-    <text x="0" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#e2e8f0">Founder &amp; Project Lead</text>
-    <text x="0" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Funa Gigs (Jaminsa Ventures)</text>
-  </g>
-
-  <!-- Stage 6 -->
-  <g transform="translate(1036, 68)">
-    <circle cx="46" cy="24" r="10" fill="#f59e0b" stroke="#0b1528" stroke-width="3" />
-    <text x="-10" y="60" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">06. Open Source</text>
-    <text x="-10" y="80" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">AI Agents, Security &amp;</text>
-    <text x="-10" y="96" font-family="Inter, -apple-system, sans-serif" font-size="11.5" fill="#94a3b8">Systems Flagships</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 222" role="img" aria-labelledby="t d">
+<title id="t">A self-built engineering journey</title><desc id="d">Six stages from applied software and ISBAT University to 4codex, Waanverse Labs leadership, Codesphere Innovations, Funa Gigs and open-source engineering.</desc>
+<defs><linearGradient id="b"><stop stop-color="#071020"/><stop offset="1" stop-color="#102342"/></linearGradient><linearGradient id="track"><stop stop-color="#4da8e3"/><stop offset=".65" stop-color="#7bc5f0"/><stop offset="1" stop-color="#e7bb7a"/></linearGradient><pattern id="g" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#b8ddff" stroke-opacity=".04" fill="none"/></pattern></defs>
+<style>.stage{animation:appear .8s ease both}.path{stroke-dasharray:1090;stroke-dashoffset:1090;animation:draw 2.5s .1s ease forwards}.nodeHalo{animation:glow 3s ease-in-out infinite}@keyframes appear{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes glow{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.path{stroke-dashoffset:0!important}}</style>
+<rect width="1200" height="222" rx="16" fill="url(#b)"/><rect width="1200" height="222" rx="16" fill="url(#g)"/><rect x="1" y="1" width="1198" height="220" rx="15" fill="none" stroke="#75b5eb" stroke-opacity=".26"/>
+<text x="65" y="42" fill="#e7bd7a" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2">A JOURNEY BUILT THROUGH ENGINEERING</text>
+<path d="M65 91H1130" stroke="#355071" stroke-width="3" stroke-linecap="round"/>
+<path class="path" d="M65 91H1130" stroke="url(#track)" stroke-width="3" stroke-linecap="round" fill="none"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><g class="stage" style="animation-delay:0.00s">
+<circle cx="65" cy="91" r="18" fill="#101f37" stroke="#66c9f8" stroke-width="1.6"/>
+<circle cx="65" cy="91" r="5" fill="#66c9f8"/>
+<text x="65" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">1</text>
+<text x="65" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="start">FOUNDATION</text>
+<text x="65" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="start">ISBAT / software</text>
+<text x="65" y="184" fill="#778ea8" font-size="11.5" text-anchor="start">building solutions</text>
+</g>
+<g class="stage" style="animation-delay:0.12s">
+<circle cx="278" cy="91" r="18" fill="#101f37" stroke="#66c9f8" stroke-width="1.6"/>
+<circle cx="278" cy="91" r="5" fill="#66c9f8"/>
+<text x="278" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">2</text>
+<text x="278" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="middle">4CODEX</text>
+<text x="278" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="middle">Entrepreneurship</text>
+<text x="278" y="184" fill="#778ea8" font-size="11.5" text-anchor="middle">first venture</text>
+</g>
+<g class="stage" style="animation-delay:0.24s">
+<circle cx="491" cy="91" r="18" fill="#101f37" stroke="#66c9f8" stroke-width="1.6"/>
+<circle cx="491" cy="91" r="5" fill="#66c9f8"/>
+<text x="491" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">3</text>
+<text x="491" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="middle">WAANVERSE</text>
+<text x="491" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="middle">CTO / Engineering</text>
+<text x="491" y="184" fill="#778ea8" font-size="11.5" text-anchor="middle">until Mar 2025</text>
+</g>
+<g class="stage" style="animation-delay:0.36s">
+<circle cx="704" cy="91" r="18" fill="#101f37" stroke="#e5b672" stroke-width="1.6"/>
+<circle cx="704" cy="91" r="5" fill="#e5b672"/>
+<text x="704" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">4</text>
+<text x="704" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="middle">CODESPHERE</text>
+<text x="704" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="middle">Founder & MD</text>
+<text x="704" y="184" fill="#778ea8" font-size="11.5" text-anchor="middle">technology leadership</text>
+</g>
+<g class="stage" style="animation-delay:0.48s">
+<circle cx="917" cy="91" r="18" fill="#101f37" stroke="#e5b672" stroke-width="1.6"/>
+<circle cx="917" cy="91" r="5" fill="#e5b672"/>
+<text x="917" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">5</text>
+<text x="917" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="middle">FUNA GIGS</text>
+<text x="917" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="middle">Product lead</text>
+<text x="917" y="184" fill="#778ea8" font-size="11.5" text-anchor="middle">Jaminsa Ventures</text>
+</g>
+<g class="stage" style="animation-delay:0.60s">
+<circle cx="1130" cy="91" r="18" fill="#101f37" stroke="#e5b672" stroke-width="1.6"/>
+<circle cx="1130" cy="91" r="5" fill="#e5b672"/>
+<text x="1130" y="94.7" fill="#0c1421" font-size="0.01" text-anchor="middle">6</text>
+<text x="1130" y="142" fill="#f1f6fd" font-size="14" font-weight="700" letter-spacing=".55" text-anchor="end">OPEN SOURCE</text>
+<text x="1130" y="164" fill="#a4bdd3" font-size="12.5" text-anchor="end">AI / Security / Cloud</text>
+<text x="1130" y="184" fill="#778ea8" font-size="11.5" text-anchor="end">systems for everyone</text>
+</g></g>
+<text x="65" y="207" fill="#6688a6" font-size="10.5" font-family="Consolas,monospace">THEMATIC PROGRESSION · NOT A DATE-SCALED TIMELINE</text>
 </svg>
