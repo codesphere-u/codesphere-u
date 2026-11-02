@@ -1,90 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" role="img" aria-labelledby="heroTitle heroDesc">
-  <title id="heroTitle">Akandwanaho Ivan Alvin — Software Engineer, AI Systems Builder, Cybersecurity &amp; Full-Stack Engineering</title>
-  <desc id="heroDesc">Executive engineering banner for Akandwanaho Ivan Alvin, Founder and Managing Director of Codesphere Innovations (U) Limited in Kampala, Uganda.</desc>
-  <defs>
-    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060b14" />
-      <stop offset="55%" stop-color="#0b1528" />
-      <stop offset="100%" stop-color="#0f1d35" />
-    </linearGradient>
-    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="65%" stop-color="#60a5fa" />
-      <stop offset="100%" stop-color="#f59e0b" />
-    </linearGradient>
-    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9" />
-      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.1" />
-    </linearGradient>
-    <pattern id="subtleGrid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1e293b" stroke-width="0.6" opacity="0.45" />
-    </pattern>
-  </defs>
-
-  <!-- Background & Frame -->
-  <rect width="1200" height="360" rx="16" fill="url(#navyBg)" />
-  <rect width="1200" height="360" rx="16" fill="url(#subtleGrid)" />
-  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5" />
-
-  <!-- Subtle Right Architectural Geometry -->
-  <g transform="translate(880, 48)" opacity="0.85">
-    <circle cx="130" cy="130" r="118" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 6" />
-    <circle cx="130" cy="130" r="84" fill="#091324" stroke="#2563eb" stroke-width="1.2" opacity="0.8" />
-    <polygon points="130,58 192,94 192,166 130,202 68,166 68,94" fill="#0d1b33" stroke="#38bdf8" stroke-width="1.5" />
-    <circle cx="130" cy="58" r="4" fill="#f59e0b" />
-    <circle cx="192" cy="94" r="3.5" fill="#38bdf8" />
-    <circle cx="192" cy="166" r="3.5" fill="#38bdf8" />
-    <circle cx="130" cy="202" r="4" fill="#f59e0b" />
-    <circle cx="68" cy="166" r="3.5" fill="#38bdf8" />
-    <circle cx="68" cy="94" r="3.5" fill="#38bdf8" />
-    <text x="130" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="2">SYSTEMS</text>
-    <text x="130" y="144" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#f59e0b" letter-spacing="1.5">ARCHITECTURE</text>
-  </g>
-
-  <!-- Location & Leadership Badge -->
-  <rect x="56" y="38" width="520" height="30" rx="6" fill="#0f1b2d" stroke="#2563eb" stroke-width="1" />
-  <circle cx="74" cy="53" r="4.5" fill="#f59e0b" />
-  <text x="90" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#e2e8f0" letter-spacing="1.2">
-    KAMPALA, UGANDA · FOUNDER &amp; MD, CODESPHERE INNOVATIONS (U) LTD
-  </text>
-
-  <!-- Name -->
-  <text x="56" y="122" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="800" fill="#f8fafc" letter-spacing="-1">
-    Akandwanaho Ivan Alvin
-  </text>
-
-  <!-- Core Positioning -->
-  <text x="56" y="164" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="url(#blueAccent)">
-    Software Engineer · AI Systems Builder · Cybersecurity · Full-Stack &amp; Cloud Engineering
-  </text>
-
-  <!-- Gold Accent Divider -->
-  <rect x="56" y="184" width="680" height="2" fill="url(#goldLine)" />
-
-  <!-- Mission Statement -->
-  <text x="56" y="218" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#cbd5e1">
-    Building intelligent, secure, and scalable software — from Uganda to the world.
-  </text>
-  <text x="56" y="244" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
-    Architecting autonomous AI systems, defensive security tools, financial infrastructure, and resilient digital platforms.
-  </text>
-
-  <!-- Core Specialty Badges -->
-  <g transform="translate(56, 276)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600">
-    <rect x="0" y="0" width="168" height="34" rx="6" fill="#0b1322" stroke="#1e3a5f" />
-    <text x="14" y="21" fill="#38bdf8">◆ AI Agents &amp; Local LLMs</text>
-
-    <rect x="180" y="0" width="176" height="34" rx="6" fill="#0b1322" stroke="#1e3a5f" />
-    <text x="194" y="21" fill="#38bdf8">◆ Defensive Cybersecurity</text>
-
-    <rect x="368" y="0" width="174" height="34" rx="6" fill="#0b1322" stroke="#1e3a5f" />
-    <text x="382" y="21" fill="#38bdf8">◆ Full-Stack &amp; Mobile</text>
-
-    <rect x="554" y="0" width="174" height="34" rx="6" fill="#0b1322" stroke="#1e3a5f" />
-    <text x="568" y="21" fill="#f59e0b">◆ Fintech &amp; Marketplaces</text>
-
-    <rect x="740" y="0" width="166" height="34" rx="6" fill="#0b1322" stroke="#1e3a5f" />
-    <text x="754" y="21" fill="#60a5fa">◆ Cloud &amp; Observability</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" role="img" aria-labelledby="hero-title hero-description">
+<title id="hero-title">Akandwanaho Ivan Alvin — engineering beyond borders</title>
+<desc id="hero-description">Animated dark-blue and gold engineering portfolio banner. Software engineer, AI systems builder, cybersecurity and full-stack engineering from Kampala, Uganda.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b16"/><stop offset=".6" stop-color="#0b1730"/><stop offset="1" stop-color="#071322"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#7bd7ff"/><stop offset=".57" stop-color="#64a6ff"/><stop offset="1" stop-color="#e9b76b"/></linearGradient>
+ <linearGradient id="fadeLine"><stop stop-color="#64c8ff" stop-opacity=".9"/><stop offset="1" stop-color="#e4ad63" stop-opacity="0"/></linearGradient>
+ <radialGradient id="haze"><stop stop-color="#2563eb" stop-opacity=".23"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#9fc5f0" stroke-opacity=".07"/></pattern>
+ <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
+</defs>
+<style>
+  .appear{animation:enter .9s both cubic-bezier(.2,.8,.2,1)}
+  .delay1{animation-delay:.12s}.delay2{animation-delay:.28s}.delay3{animation-delay:.44s}
+  .orbit{transform-origin:978px 208px;animation:spin 42s linear infinite}
+  .orbitReverse{transform-origin:978px 208px;animation:spin 58s linear infinite reverse}
+  .breath{animation:breath 5s ease-in-out infinite}
+  .cursor{animation:blink 1.2s steps(1) infinite}
+  .sweep{animation:sweep 7s ease-in-out infinite}
+  .dash{stroke-dasharray:8 12;animation:dashes 18s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes breath{50%{opacity:.4;transform:scale(.975)}}
+  @keyframes blink{50%{opacity:0}}
+  @keyframes enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes sweep{0%,20%{transform:translateX(-240px);opacity:0}47%{opacity:.35}80%,100%{transform:translateX(1200px);opacity:0}}
+  @keyframes dashes{to{stroke-dashoffset:-500}}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="420" fill="url(#bg)"/>
+ <rect width="1200" height="420" fill="url(#grid)"/>
+ <circle cx="981" cy="208" r="305" fill="url(#haze)"/>
+ <rect x="-240" y="0" width="165" height="420" fill="#62cfff" opacity="0" class="sweep"/>
+ <path d="M0 386H1200" stroke="#6ba7ef" stroke-opacity=".13"/>
+ <path d="M0 32H1200" stroke="#6ba7ef" stroke-opacity=".08"/>
+ <path d="M31 18H1169" stroke="#9dccff" stroke-opacity=".08"/>
+ <rect x="1" y="1" width="1198" height="418" rx="17" fill="none" stroke="#78bdf7" stroke-opacity=".25" stroke-width="1.5"/>
+ <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
+  <circle cx="67" cy="56" r="4" fill="#e8b86b" class="breath"/>
+  <text x="80" y="60" fill="#b5cadf" font-size="12" letter-spacing="2" class="appear">ENGINEER / FOUNDER / BUILDER</text>
+  <text x="1128" y="60" fill="#7d9ab6" font-size="11" text-anchor="end" letter-spacing="1.6">KAMPALA · UGANDA</text>
+ </g>
+ <g font-family="Inter,'Segoe UI',Arial,sans-serif">
+  <text x="62" y="145" fill="#eaf4ff" font-weight="790" font-size="53" letter-spacing="-1.5" class="appear delay1">AKANDWANAHO</text>
+  <text x="62" y="216" fill="url(#accent)" font-weight="790" font-size="72" letter-spacing="-2" class="appear delay2">IVAN ALVIN<tspan fill="#e8b86b">.</tspan></text>
+  <text x="65" y="267" fill="#dde9f5" font-weight="650" font-size="17.5" letter-spacing="1.4" class="appear delay3">SOFTWARE ENGINEER  /  AI SYSTEMS BUILDER</text>
+  <text x="65" y="296" fill="#86a8c6" font-size="14" letter-spacing="1.5" class="appear delay3">CYBERSECURITY  ·  CLOUD  ·  FULL-STACK</text>
+  <path d="M65 328H705" stroke="url(#fadeLine)" stroke-width="2"/>
+  <text x="65" y="356" fill="#a3bbd1" font-size="15">Building intelligent, secure systems from Uganda to the world.</text>
+  <text x="65" y="386" fill="#e1b673" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" letter-spacing="1.7">DESIGN  →  BUILD  →  VERIFY  →  SHIP<tspan class="cursor"> ▌</tspan></text>
+ </g>
+ <g fill="none" stroke="#8acbfa">
+  <circle cx="978" cy="208" r="158" stroke-opacity=".12"/>
+  <circle cx="978" cy="208" r="127" stroke-opacity=".26" stroke-width="1.1" class="dash"/>
+  <g class="orbit"><ellipse cx="978" cy="208" rx="158" ry="49" stroke="#74bfff" stroke-opacity=".31" stroke-width="1.5" transform="rotate(-37 978 208)"/></g>
+  <g class="orbitReverse"><ellipse cx="978" cy="208" rx="158" ry="49" stroke="#f4c680" stroke-opacity=".28" stroke-width="1.2" transform="rotate(43 978 208)"/></g>
+  <path d="M978 49V368M819 208H1137" stroke-opacity=".12"/>
+  <path d="M906 208L943 172L975 218L1017 153L1051 208" stroke="#83d5ff" stroke-opacity=".7" stroke-width="2"/>
+ </g>
+ <g class="orbit"><circle cx="1109.0" cy="208.0" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="1102.6" cy="232.8" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1095.3" cy="256.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1083.6" cy="278.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1067.8" cy="297.8" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1050.8" cy="316.9" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="1026.6" cy="325.3" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1002.8" cy="332.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="978.0" cy="335.0" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="953.2" cy="332.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="927.9" cy="329.0" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="907.4" cy="313.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="888.2" cy="297.8" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="872.4" cy="278.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="860.7" cy="256.6" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="849.5" cy="233.6" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="851.0" cy="208.0" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="853.4" cy="183.2" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="860.7" cy="159.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="872.4" cy="137.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="885.4" cy="115.4" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="907.4" cy="102.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="929.4" cy="90.7" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="953.2" cy="83.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="978.0" cy="81.0" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1003.6" cy="79.5" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="1026.6" cy="90.7" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1048.6" cy="102.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1067.8" cy="118.2" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1083.6" cy="137.4" r="1.1" fill="#78c9f4" opacity=".36"/>
+<circle cx="1099.0" cy="157.9" r="2" fill="#e7b976" opacity=".86"/>
+<circle cx="1102.6" cy="183.2" r="1.1" fill="#78c9f4" opacity=".36"/></g>
+ <circle cx="978" cy="208" r="88" fill="#0a1d34" fill-opacity=".91" stroke="#8bc8f5" stroke-opacity=".38"/>
+ <circle cx="978" cy="208" r="73" fill="none" stroke="#e5b46c" stroke-opacity=".35" stroke-dasharray="2 7"/>
+ <g font-family="'SFMono-Regular',Consolas,monospace" text-anchor="middle">
+  <text x="978" y="183" fill="#93b2cc" font-size="10" letter-spacing="2.4">ENGINEERING</text>
+  <text x="978" y="216" fill="#f5f8ff" font-size="20" font-weight="700" letter-spacing="3">BUILD</text>
+  <text x="978" y="237" fill="#e8b86b" font-size="11.5" letter-spacing="2">WHAT MATTERS</text>
+ </g>
+ <g font-family="'SFMono-Regular',Consolas,monospace" font-size="9.5" letter-spacing="1.3" fill="#7799b5">
+  <text x="841" y="364">SYS://PORTFOLIO</text><text x="1126" y="364" text-anchor="end">V 2026</text>
+ </g>
+</g></svg>
