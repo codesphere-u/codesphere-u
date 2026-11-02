@@ -1,105 +1,182 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="Codesphere Engineering — Software Engineer, AI Systems Builder, Cybersecurity & Cloud Engineering" width="100%" />
+  <img src="./assets/hero-banner.svg" alt="Akandwanaho Ivan Alvin — Software Engineer, AI Systems Builder, Cybersecurity & Full-Stack Engineering" width="100%" />
 </div>
 
-<h3 align="center">
-  Software Engineer &nbsp;|&nbsp; AI Systems Builder &nbsp;|&nbsp; Cybersecurity &nbsp;|&nbsp; Full-Stack &amp; Cloud Engineering &nbsp;|&nbsp; Building Technology for Real-World Problems
-</h3>
+<h2 align="center">Akandwanaho Ivan Alvin</h2>
+<p align="center">
+  <strong>Software Engineer · AI Systems Builder · Cybersecurity · Full-Stack &amp; Cloud Engineering</strong><br />
+  Founder &amp; Managing Director, <a href="https://www.codesphereug.com">Codesphere Innovations (U) Limited</a> &nbsp;·&nbsp; Kampala, Uganda
+</p>
 
 <p align="center">
-  <a href="https://github.com/codesphere-u/agentshield"><img src="https://img.shields.io/badge/Flagship-AgentShield%20(OWASP%202026)-4de8ae?style=flat-square" alt="AgentShield" /></a>
-  <a href="https://github.com/codesphere-u/cyber-dragon"><img src="https://img.shields.io/badge/Flagship-Cyber%20Dragon%20v1.0-38bdf8?style=flat-square" alt="Cyber Dragon" /></a>
-  <a href="https://github.com/codesphere-u/auralis-local"><img src="https://img.shields.io/badge/Flagship-Auralis%20Local%20AI-a78bfa?style=flat-square" alt="Auralis Local" /></a>
-  <a href="https://github.com/codesphere-u/flowledger"><img src="https://img.shields.io/badge/Flagship-FlowLedger%20Core-fbbf24?style=flat-square" alt="FlowLedger" /></a>
-  <a href="https://github.com/codesphere-u/ARGUS-AI"><img src="https://img.shields.io/badge/Flagship-ARGUS%20AI%20v2.1-f472b6?style=flat-square" alt="ARGUS AI" /></a>
-  <a href="https://github.com/codesphere-u/stackpulse"><img src="https://img.shields.io/badge/Flagship-StackPulse%20SRE-60a5fa?style=flat-square" alt="StackPulse" /></a>
+  <a href="https://www.codesphereug.com"><img src="https://img.shields.io/badge/Company-codesphereug.com-2563eb?style=flat-square" alt="Codesphere Innovations" /></a>
+  <a href="https://www.linkedin.com/in/the4codex"><img src="https://img.shields.io/badge/LinkedIn-the4codex-0a66c2?style=flat-square" alt="LinkedIn" /></a>
+  <a href="https://github.com/codesphere-u/codesphere-portfolio"><img src="https://img.shields.io/badge/Portfolio-Engineering%20Case%20Studies-f59e0b?style=flat-square" alt="Engineering Portfolio" /></a>
+  <a href="https://cyber-dragon-ivory.vercel.app"><img src="https://img.shields.io/badge/Live%20Lab-Cyber%20Dragon%20v1.0-38bdf8?style=flat-square" alt="Cyber Dragon Live Demo" /></a>
 </p>
 
 ---
 
-## Engineering Identity & Philosophy
+## About Me
 
-I am a software engineer, full-stack architect, cybersecurity practitioner, and AI systems builder based in **Kampala, Uganda**. I design and build auditable, production-grade software systems at the intersection of:
+I am **Akandwanaho Ivan Alvin** (commonly known as **Alvin**), a Ugandan software engineer, cybersecurity practitioner, full-stack developer, and technology entrepreneur based in Kampala, Uganda.
 
-- **Autonomous AI & Local Inference:** Multi-agent deliberation with adversarial veto controls, privacy-first Apple Silicon AI workspaces, and hybrid local retrieval (BM25 + phrase RAG).
-- **Cybersecurity & AI Agent Governance:** OWASP 2026 agentic capability firewalls, prompt-injection red-teaming, and SSRF-free digital fraud detection tailored to East African Mobile Money and USSD threat patterns.
-- **Financial Infrastructure & Distributed Reliability:** Integer minor-unit double-entry payment ledgers, idempotent webhook state machines, automated 3-way reconciliation, and OpenTelemetry critical-path observability.
-- **Resilient Field & Healthcare Systems:** Offline-first smallholder agricultural advisory platforms with Lamport/LWW sync queues and polyglot clinical telemedicine architectures.
+I build intelligent, secure, and scalable digital products spanning artificial intelligence, full-stack web and mobile platforms, defensive cybersecurity, financial technology, and cloud systems. My work focuses on solving real operational problems—particularly in African markets—while architecting open-source systems and developer tools engineered for global standards.
 
-Every flagship repository below includes **working CLI/API/UI implementations, deterministic benchmarks, documented Architectural Decision Records (ADRs), and automated GitHub Actions verification.**
+I believe great engineering combines technical depth, practical usefulness, security by design, and clear architectural trade-offs.
 
 ---
 
-## Flagship Engineering Systems (Recommended Pinned Portfolio)
+## My Engineering Journey
 
-### 1. [🛡️ AgentShield — AI Agent Security & Governance Framework (`agentshield`)](https://github.com/codesphere-u/agentshield)
-> **Domain:** AI Security · OWASP 2026 Agentic Top 10 · Capability Firewall · Python SDK & Security Lab
-- **What It Solves:** Prevents autonomous LLM agents from falling victim to direct/indirect prompt injection, executing unauthorized shell/filesystem/SSRF tool calls, or leaking credentials.
-- **Engineering Highlights:**
-  - Multi-layer `PromptInjectionDetector` catching system-prompt overrides, RAG context poisoning, Base64/Hex obfuscation, and zero-width Unicode steganography.
-  - Declarative `AgentShieldPolicy` enforcing `allow`, `deny`, and `require_approval` boundaries across Shell, Filesystem Sandbox, RFC1918/Cloud-Metadata SSRF, and SQLi inspectors.
-  - SHA-256 hash-chained tamper-evident `AuditLedger` (`verify_integrity()`) + 25-scenario OWASP 2026 benchmark suite (**100% recall, 0% FPR, 42 passing tests**).
+<div align="center">
+  <img src="./assets/career-timeline.svg" alt="Thematic Engineering & Leadership Progression" width="100%" />
+</div>
 
-### 2. [🐉 Cyber Dragon v1.0 — Community Cyber Defense Platform (`cyber-dragon`)](https://github.com/codesphere-u/cyber-dragon)
-> **Domain:** Defensive Cybersecurity · Mobile Money & USSD Fraud Intelligence · Next.js 15 & FastAPI · [**Live Demo ↗**](https://cyber-dragon-ivory.vercel.app)
-- **What It Solves:** Helps individuals, community responders, and developers inspect suspicious SMS messages, phishing links, lookalike domains, and USSD traps without opening untrusted URLs.
-- **Engineering Highlights:**
-  - **5-Dimension Heuristic Engine** with parity across TypeScript (`apps/web`) and Python (`services/threat-api`), evaluating Credential Harvesting, Mobile Money/USSD Fraud (`*21*` call diversion, `*165*` traps), Domain Deception (IDN Punycode `xn--` & Levenshtein brand lookalikes across 18+ African & global brands), Coercive Urgency, and Advance-Fee scams.
-  - **100% SSRF-Free by Construction** (zero external network fetches) + automatic PII redaction for exportable Markdown/JSON incident reports and a Developer CLI (`cyber-dragon scan | report | benchmark`).
+My career has progressed from building foundational business software and independent engineering systems into technical leadership, company building, and open-source systems architecture:
 
-### 3. [✨ Auralis Local v0.2 — Private Apple Silicon AI Workspace (`auralis-local`)](https://github.com/codesphere-u/auralis-local)
-> **Domain:** Local LLM Inference · Hybrid BM25 RAG · Local Voice (MLX/Whisper) · React 19 & TypeScript
-- **What It Solves:** Delivers a fast, inspectable local AI assistant engineered for 16 GB Apple Silicon Macs with zero cloud telemetry and explicit human approval for state-changing tools.
-- **Engineering Highlights:**
-  - **Local Document Knowledge Base (`server/knowledge.ts`)** with line-aware chunking and Hybrid BM25 + Phrase retrieval (`P50: 0.245 ms`), streaming inline source citations (`#Lstart-Lend`) into chat responses.
-  - **Guarded Workspace Inspector (`server/workspace.ts`)** blocking path traversal, symlinks, and dotfile/secret access, paired with session-bound 5-minute approval tokens (`36 passing tests`).
-
-### 4. [💳 FlowLedger — African Payment Orchestration & Double-Entry Engine (`flowledger`)](https://github.com/codesphere-u/flowledger)
-> **Domain:** Fintech Infrastructure · Double-Entry Accounting · Mobile Money Reconciliation · Python & FastAPI
-- **What It Solves:** Models institutional payment orchestration across simulated MTN MoMo and Airtel Money rails with mathematical ledger integrity.
-- **Engineering Highlights:**
-  - **Integer Minor-Unit Double-Entry Engine** (`UGX`, `KES`, `NGN`, `USD`) enforcing $\sum \text{Debits} \equiv \sum \text{Credits}$ and SHA-256 hash-chained journal entries.
-  - **Idempotent Payment State Machine & 3-Way Reconciliation Pipeline** handling duplicate webhooks, out-of-order settlement-before-authorization callbacks, HMAC-SHA256 replay windows, and automated fee-discrepancy adjustment proposals (`51 passing invariant & API tests`).
-
-### 5. [🏛️ ARGUS AI v2.1 — Auditable Multi-Agent Decision System (`ARGUS-AI`)](https://github.com/codesphere-u/ARGUS-AI)
-> **Domain:** Multi-Agent Systems · Adversarial Governance · Leakage-Free Backtesting · MCP Server
-- **What It Solves:** Replaces blind single-agent execution with a 7-agent Investment Committee where a dedicated **Devil's Advocate Agent** stress-tests proposals and holds unilateral veto power (`>=75%` disqualification risk).
-- **Engineering Highlights:**
-  - **Leakage-Free Walk-Forward Backtester (`argus_ai/backtest.py`)** with `PointInTimeGuard` (`LookaheadLeakageError`), ATR-scaled slippage + spread modeling, and counterfactual Devil's Advocate veto attribution (`61 passing tests`).
-  - Cryptographic SHA-256 **Trade Passports** with deterministic decision replay (`argus_ai/cli.py replay`) and Model Context Protocol (`argus_ai/mcp_server.py`) integration.
-
-### 6. [📈 StackPulse — Cloud Observability, Distributed Tracing & SLO Lab (`stackpulse`)](https://github.com/codesphere-u/stackpulse)
-> **Domain:** Cloud Reliability · OpenTelemetry DAG Analysis · Multi-Window SLOs · Python, FastAPI & Docker
-- **What It Solves:** Self-hostable observability and incident investigation platform for reconstructing distributed traces, catching ORM performance regressions, and tracking error budgets.
-- **Engineering Highlights:**
-  - **W3C TraceContext DAG Analyzer** computing true critical-path bottlenecks (`51.2 µs/trace`), automatic **N+1 Query Detection**, and cascading retry-storm identification.
-  - **Google SRE Workbook Multi-Window Burn-Rate Engine** (`1h/6h/24h/72h`) + automated Blameless SRE Postmortem generator (`47 passing tests`).
+1. **Foundation & Applied Engineering:** Studied at **ISBAT University** (Uganda) while independently building operational software systems across retail, pharmacy, hospitality, hardware, and logistics domains.
+2. **Entrepreneurship (`4codex Technologies`):** Founded **4codex Technologies**, delivering custom web engineering, cybersecurity, automation, and business software solutions.
+3. **Technical Leadership (`Waanverse Labs Inc.`):** Served as **Chief Technology Officer (CTO) and Head of Engineering** at **Waanverse Labs Inc.** (departed March 2025), leading technical strategy, system architecture, and engineering workflows.
+4. **Business & Engineering Leadership (`Codesphere Innovations (U) Limited`):** Serving as **Founder and Managing Director** of **Codesphere Innovations (U) Limited**, combining hands-on software architecture with company leadership, AI-enabled product engineering, cloud solutions, and cybersecurity.
+5. **Marketplace Product Engineering (`Funa Gigs` — `Jaminsa Ventures Limited`):** Serving as **Founder and Project Lead** for **Funa Gigs** (a digital services marketplace under **Jaminsa Ventures Limited**), architecting Flutter mobile apps, real-time job matching, Instant Hire workflows, location-based discovery, payment integrations, and trust/safety controls.
+6. **Advanced Systems & Open Source:** Designing and maintaining verifiable open-source flagships across local AI inference, multi-agent governance, AI security firewalls, double-entry financial ledgers, and distributed observability.
 
 ---
 
-## Additional Engineering Repositories
+## Professional Experience & Leadership
 
-- **[🌱 AgriSignal (`agrisignal`)](https://github.com/codesphere-u/agrisignal):** Offline-first smallholder agricultural decision support platform featuring agro-ecological rule evaluation with explicit uncertainty bounds, Fall Armyworm / Coffee Wilt IPM risk matrices, Lamport-clock LWW offline sync queues, and 160-character SMS advisories in English, Luganda, and Swahili.
-- **[🏥 Clinical & Virtual Health Platform (`Clinical-Virtual-Health-Platform`)](https://github.com/codesphere-u/Clinical-Virtual-Health-Platform):** Polyglot telemedicine monorepo (Turborepo, Next.js portals, Fastify OpenAPI backend, Prisma/PostgreSQL, LiveKit SFU video gateway, Flutter packages, and 15 documented ADRs).
-- **[🌐 Engineering Portfolio Showcase (`codesphere-portfolio`)](https://github.com/codesphere-u/codesphere-portfolio):** Interactive recruiter-facing technical portfolio featuring live architecture explorations, benchmark data, and engineering case studies.
+| Role | Organization | Scope & Engineering Focus | Status |
+| :--- | :--- | :--- | :---: |
+| **Founder & Managing Director** | **[Codesphere Innovations (U) Limited](https://www.codesphereug.com)** | Custom software architecture, AI-powered applications, web/mobile platforms, cybersecurity, cloud infrastructure, and digital transformation. | **Current** |
+| **Founder & Project Lead** | **Funa Gigs** *(Jaminsa Ventures Limited)* | Full-stack marketplace architecture, Flutter mobile engineering, real-time matching, live location workflows, payment integrations, identity verification, and RBAC admin tooling. | **Current** |
+| **CTO & Head of Engineering** | **Waanverse Labs Inc.** | Technical strategy, software architecture, engineering management, development workflows, and product delivery. | **Former** *(until Mar 2025)* |
+| **Founder** | **4codex Technologies** | Software development, web application engineering, cybersecurity, automation, and technical consultancy. | **Historical Venture** |
+
+- **Education:** Studied at **ISBAT University**, Uganda, complemented by continuous independent systems engineering and applied research.
 
 ---
 
-## Technology Stack & Core Competencies
+## Featured Open-Source Projects (Six Primary Flagships)
 
-| Layer | Technologies & Practices |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>1. <a href="https://github.com/codesphere-u/cyber-dragon">🐉 Cyber Dragon v1.0</a></h3>
+      <p><strong>Open-Source Community Cyber Defense Platform</strong></p>
+      <p>Explainable, 100% SSRF-free heuristic platform for inspecting suspicious SMS messages, phishing URLs, IDN Punycode homographs, brand-impersonation domains (18+ African &amp; global brands), and Mobile Money / USSD diversion traps (<code>*21*</code>, <code>*165*</code>).</p>
+      <p>
+        <code>TypeScript</code> <code>Next.js 15</code> <code>Python</code> <code>FastAPI</code> <code>CLI</code><br />
+        <a href="https://cyber-dragon-ivory.vercel.app"><strong>Live Workbench ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cyber-dragon/actions">21 Passing Tests</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>2. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
+      <p><strong>Privacy-First Local AI Workspace for Apple Silicon</strong></p>
+      <p>Deliberate local AI assistant engineered for 16 GB Apple Silicon Macs. Combines streaming Ollama chat, local MLX/Whisper voice rooms, a line-aware <strong>Hybrid BM25 + Phrase RAG Knowledge Base</strong> with inline citations, and approval-gated workspace tools.</p>
+      <p>
+        <code>TypeScript</code> <code>React 19</code> <code>Node.js</code> <code>Ollama</code> <code>MLX</code><br />
+        <a href="https://github.com/codesphere-u/auralis-local/blob/main/docs/architecture.md"><strong>Architecture Docs ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/auralis-local/actions">36 Passing Tests</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>3. <a href="https://github.com/codesphere-u/agentshield">🛡️ AgentShield v1.0</a></h3>
+      <p><strong>AI Agent Security &amp; Governance Framework (OWASP 2026)</strong></p>
+      <p>Deterministic security firewall for autonomous AI agents. Features multi-layer prompt-injection &amp; RAG context-poisoning detection, capability allow/deny enforcement (Shell, Filesystem, SSRF, SQLi), secret egress redaction, and a SHA-256 hash-chained audit ledger.</p>
+      <p>
+        <code>Python</code> <code>FastAPI</code> <code>Pydantic v2</code> <code>OWASP 2026</code> <code>CLI</code><br />
+        <a href="https://github.com/codesphere-u/agentshield/blob/main/docs/architecture.md"><strong>Security Spec ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentshield/actions">42 Passing Tests (100% Recall)</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>4. <a href="https://github.com/codesphere-u/ARGUS-AI">🏛️ ARGUS AI v2.1</a></h3>
+      <p><strong>Auditable Multi-Agent Decision &amp; Research System</strong></p>
+      <p>7-agent Investment Committee orchestration where a dedicated <strong>Devil's Advocate Agent</strong> stress-tests theses and holds unilateral veto power. Includes a leakage-free walk-forward backtester with ATR slippage modeling, cryptographic Trade Passports, and an MCP server.</p>
+      <p>
+        <code>Python</code> <code>Multi-Agent Systems</code> <code>MCP</code> <code>Pydantic</code><br />
+        <a href="https://github.com/codesphere-u/ARGUS-AI/blob/main/docs/BACKTEST_VERIFICATION_REPORT.md"><strong>Backtest Report ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/ARGUS-AI/actions">61 Passing Tests</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>5. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
+      <p><strong>African Payment Orchestration &amp; Double-Entry Ledger</strong></p>
+      <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles idempotent requests, HMAC webhook replay protection, simulated MTN MoMo &amp; Airtel Money adapters, and 3-way reconciliation.</p>
+      <p>
+        <code>Python</code> <code>FastAPI</code> <code>Double-Entry Ledger</code> <code>Fintech</code><br />
+        <a href="https://github.com/codesphere-u/flowledger/blob/main/docs/architecture.md"><strong>Ledger Invariants ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">51 Passing Tests</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>6. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
+      <p><strong>Cloud Observability, Distributed Tracing &amp; SLO Lab</strong></p>
+      <p>Self-hostable OpenTelemetry trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, tracks Google SRE multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
+      <p>
+        <code>Python</code> <code>FastAPI</code> <code>OpenTelemetry</code> <code>Docker</code> <code>SRE</code><br />
+        <a href="https://github.com/codesphere-u/stackpulse/blob/main/docs/architecture.md"><strong>SRE Architecture ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/stackpulse/actions">47 Passing Tests</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Technical Specializations
+
+- **Artificial Intelligence & Agentic Systems:** Local LLM inference (Ollama, MLX, Whisper), multi-agent adversarial deliberation, hybrid BM25 + phrase retrieval (RAG), structured outputs, and AI capability firewalls.
+- **Defensive Cybersecurity & Trustworthy Systems:** Static URL/domain heuristics, IDN homograph and brand-impersonation detection, mobile-money/USSD fraud defense, secure API design, RBAC/MFA, and tamper-evident audit trails.
+- **Full-Stack, Marketplace & Mobile Engineering:** Cross-platform Flutter applications, React/Next.js interfaces, real-time matching and geolocation workflows, payment orchestration, and modular backend architectures.
+- **Fintech, Healthcare & Sector Platforms:** Double-entry accounting ledgers, idempotent webhook processing, offline-first smallholder agricultural advisory systems ([`agrisignal`](https://github.com/codesphere-u/agrisignal)), and clinical telemedicine monorepos ([`Clinical-Virtual-Health-Platform`](https://github.com/codesphere-u/Clinical-Virtual-Health-Platform)).
+
+---
+
+## Selected Architecture & Engineering Highlights
+
+- **SSRF-Free Static Threat Deconstruction ([`cyber-dragon`](https://github.com/codesphere-u/cyber-dragon/blob/main/docs/decisions/001-ssrf-free-static-heuristics.md)):** Evaluates untrusted URLs, QR payloads, and USSD strings purely lexically (`~0.28 ms` mean latency) so the analyzer can never be abused as an SSRF proxy or trigger attacker tracking beacons.
+- **Loopback Sandboxing & Single-Use Human Approval Gates ([`auralis-local`](https://github.com/codesphere-u/auralis-local/blob/main/docs/decisions/001-loopback-and-explicit-tool-governance.md)):** Binds local AI services strictly to `127.0.0.1` with CSRF/origin validation and requires session-bound, 5-minute expiring human approval tokens before indexing files or persisting state.
+- **Integer Minor-Unit Accounting & Zero-Sum Invariants ([`flowledger`](https://github.com/codesphere-u/flowledger/blob/main/docs/decisions/001-integer-minor-units-and-double-entry-invariants.md)):** Rejects IEEE-754 floating-point values across all financial paths, enforcing $\sum \text{Debits} \equiv \sum \text{Credits}$ and SHA-256 hash chaining on every journal entry.
+- **Marketplace & Real-Time Product Architecture (`Funa Gigs` — Jaminsa Ventures Limited):** Combines Flutter mobile applications, Elixir/Phoenix and Supabase/PostgreSQL backend services, live location discovery, Instant Hire workflows, identity verification, and payment state management.
+- **Offline-First Rural Synchronization ([`agrisignal`](https://github.com/codesphere-u/agrisignal/blob/main/docs/decisions/001-offline-outbox-and-uncertainty-reporting.md)):** Uses Hybrid Logical Clocks (HLC) and Last-Write-Wins Element-Set (LWW-Element-Set) outboxes for rural field synchronization alongside `<=160`-character GSM-7 advisories in English, Luganda, and Swahili.
+
+---
+
+## Technologies I Use
+
+| Category | Verified Practical Stack |
 | :--- | :--- |
-| **Languages** | TypeScript, Python (3.11–3.13), Dart / Flutter, SQL, Bash |
-| **Frontend & Mobile** | React 19, Next.js 15, Vite, Tailwind CSS, Accessible Design Systems (WCAG), Flutter Cross-Platform |
-| **Backend & Systems** | FastAPI, Node.js, Fastify, REST / OpenAPI, Server-Sent Events (SSE), Model Context Protocol (MCP), CLI Tooling |
-| **AI & Machine Learning** | Multi-Agent Orchestration, Local LLMs (Ollama, MLX, Whisper), Hybrid BM25 + Phrase RAG, AI Security & Guardrails (OWASP) |
-| **Security & Fintech** | Static URL/Domain Heuristics, IDN Homograph Detection, Capability Firewalls, HMAC Webhook Security, Double-Entry Ledgers |
-| **Data, Cloud & DevOps** | PostgreSQL, Prisma, Redis, OpenTelemetry, Docker Compose, GitHub Actions CI/CD, Deterministic Benchmarking |
+| **Primary Languages** | Python, TypeScript, JavaScript, Dart, SQL, HTML/CSS |
+| **Additional Languages** | Elixir, Kotlin, Java, C#, PHP |
+| **Frontend & UI** | React, Next.js, Vite, Tailwind CSS, Accessible Component Architecture, Data Visualization |
+| **Backend & APIs** | FastAPI, Node.js, Flask, Django, Fastify, Elixir/Phoenix, REST/OpenAPI, Webhooks, SSE, MCP |
+| **Mobile Engineering** | Flutter, Dart, Kotlin, Android Development, Location Workflows, Mobile Auth & Push Notifications |
+| **Databases & State** | PostgreSQL, Supabase, Prisma, SQLite, MySQL, Firebase, Redis, Relational & Ledger Modeling |
+| **AI & Local Inference** | Ollama, Apple Silicon MLX, Whisper, Hybrid BM25 RAG, Multi-Agent Orchestration, TensorFlow |
+| **Cloud, DevOps & Security** | Docker, GitHub Actions CI/CD, Google Cloud, AWS, Vercel, Linux, OpenTelemetry, OWASP Agentic Security |
 
 ---
 
-## Collaborating & Open Source
+## Open-Source Contributions & Community
 
-Contributions, security reviews, and architectural discussions are welcome across all public repositories:
-- Review each repository's `CONTRIBUTING.md`, `SECURITY.md`, and `docs/architecture.md`.
-- Explore labeled issues and `docs/roadmap.md` for scoped open-source enhancements.
+All flagship repositories are documented with architecture guides, ADRs, reproducible test suites, and scoped contributor issues:
+- Browse open **`good first issue`** and **`help wanted`** tasks across [`cyber-dragon/issues`](https://github.com/codesphere-u/cyber-dragon/issues), [`auralis-local/issues`](https://github.com/codesphere-u/auralis-local/issues), [`agentshield/issues`](https://github.com/codesphere-u/agentshield/issues), and [`flowledger/issues`](https://github.com/codesphere-u/flowledger/issues).
+- Explore full architectural case studies and verified benchmark comparisons in the companion repository: **[`codesphere-portfolio`](https://github.com/codesphere-u/codesphere-portfolio)**.
+
+---
+
+## Current Engineering Focus
+
+- Expanding **Cyber Dragon** with multilingual East African community fraud response playbooks (`en`, `lg`, `sw`) and regional telecom/financial domain protections.
+- Advancing **Auralis Local** and **AgentShield** for safe, low-memory local agent execution on Apple Silicon hardware.
+- Scaling **Codesphere Innovations (U) Limited** and leading product engineering on **Funa Gigs** (*Jaminsa Ventures Limited*).
+
+---
+
+## Professional & Contact Links
+
+- **Company Website:** [https://www.codesphereug.com](https://www.codesphereug.com) — *Codesphere Innovations (U) Limited*
+- **LinkedIn:** [https://www.linkedin.com/in/the4codex](https://www.linkedin.com/in/the4codex) — *Akandwanaho Ivan Alvin*
+- **GitHub Portfolio:** [https://github.com/codesphere-u](https://github.com/codesphere-u)
+- **Engineering Case Studies & Architecture Explorer:** [https://github.com/codesphere-u/codesphere-portfolio](https://github.com/codesphere-u/codesphere-portfolio)
