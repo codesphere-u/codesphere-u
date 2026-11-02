@@ -1,8 +1,11 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="Akandwanaho Ivan Alvin — Software Engineer, AI Systems Builder, Cybersecurity & Full-Stack Engineering" width="100%" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-banner-still.svg" />
+    <img src="./assets/hero-banner.svg" width="100%" alt="Akandwanaho Ivan Alvin — from business software to AI systems, cybersecurity and technical leadership" />
+  </picture>
 </div>
 
-<h2 align="center">Akandwanaho Ivan Alvin</h2>
+<h2 align="center">From solving everyday problems to architecting ambitious systems.</h2>
 <p align="center">
   <strong>Software Engineer · AI Systems Builder · Cybersecurity · Full-Stack &amp; Cloud Engineering</strong><br />
   Founder &amp; Managing Director, <a href="https://www.codesphereug.com">Codesphere Innovations (U) Limited</a> &nbsp;·&nbsp; Kampala, Uganda
@@ -11,11 +14,17 @@
 <p align="center">
   <a href="https://www.codesphereug.com"><img src="https://img.shields.io/badge/Company-codesphereug.com-2563eb?style=flat-square" alt="Codesphere Innovations" /></a>
   <a href="https://www.linkedin.com/in/the4codex"><img src="https://img.shields.io/badge/LinkedIn-the4codex-0a66c2?style=flat-square" alt="LinkedIn" /></a>
-  <a href="https://github.com/codesphere-u/codesphere-portfolio"><img src="https://img.shields.io/badge/Portfolio-Engineering%20Case%20Studies-f59e0b?style=flat-square" alt="Engineering Portfolio" /></a>
+  <a href="https://github.com/codesphere-u/codesphere-portfolio"><img src="https://img.shields.io/badge/Explore-The%20Engineering%20Portfolio-F6B84C?style=for-the-badge&labelColor=081627" alt="Explore Engineering Portfolio" /></a>
   <a href="https://cyber-dragon-ivory.vercel.app"><img src="https://img.shields.io/badge/Live%20Lab-Cyber%20Dragon%20v1.0-38bdf8?style=flat-square" alt="Cyber Dragon Live Demo" /></a>
 </p>
 
 ---
+
+## The person behind the systems
+
+*My journey has never been about collecting technologies. It has been about using them to build things that matter — from practical business tools, through engineering leadership, to AI, cybersecurity, real-time platforms and open source.*
+
+**[Explore my engineering portfolio](https://github.com/codesphere-u/codesphere-portfolio)** · **[See Cyber Dragon](https://github.com/codesphere-u/cyber-dragon)** · **[Explore Auralis Local](https://github.com/codesphere-u/auralis-local)**
 
 ## About Me
 
@@ -30,7 +39,10 @@ I believe great engineering combines technical depth, practical usefulness, secu
 ## My Engineering Journey
 
 <div align="center">
-  <img src="./assets/career-timeline.svg" alt="Thematic Engineering & Leadership Progression" width="100%" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/career-timeline-still.svg" />
+    <img src="./assets/career-timeline.svg" width="100%" alt="Career progression: applied software engineering, 4codex, Waanverse Labs CTO, Codesphere Innovations founder, Funa Gigs product engineering, and open source" />
+  </picture>
 </div>
 
 My career has progressed from building foundational business software and independent engineering systems into technical leadership, company building, and open-source systems architecture:
