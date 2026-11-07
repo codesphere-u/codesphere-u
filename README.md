@@ -69,26 +69,37 @@ My career has progressed from building foundational business software and indepe
 
 ---
 
-## The Codesphere Agentic Stack (8-Layer Open-Source AI Agent Infrastructure)
+## The Codesphere Agentic Stack (Proof-Carrying AI Agent Infrastructure)
 
-I design and maintain an interoperable, zero-cloud-dependency suite of **8 Model Context Protocol (MCP) & Autonomous Agent Infrastructure systems** addressing every failure mode of production AI agents:
+I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model Context Protocol (MCP) & Autonomous Agent Infrastructure systems** unified under **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** (*Proof-Carrying Agent Execution*):
 
 | Layer | Repository | Core Engineering Guarantee | Verified Proof |
 | :--- | :--- | :--- | :--- |
-| **1. Memory** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`) + hybrid BM25 & 2-hop recall | `100%` stale-fact suppression · `67` tests |
+| **0. Attestation Kernel** | **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** | 7-gate Proof-Carrying Agent Execution (PCAE) + RFC 6962 (`0x00`/`0x01`) SHA-256 Merkle proofs | `100%` recall (`0.27 ms` P50) · `245/245` proofs · `77` tests |
+| **1. Memory (`v1.1`)** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`), contradiction auditor & TruthGate export | `100%` stale-fact suppression · `84` tests |
 | **2. Routing** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), confidence cascade & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `61` tests |
 | **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `65` tests |
 | **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `42` tests |
-| **5. Flight Recorder** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette recorder (`$0` CI replay), real-time loop breaker & 10-rule MCP schema linter | `2.83 µs/span` (`353k spans/s`) · `73` tests |
+| **5. Flight Recorder (`v1.1`)** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette replay (`$0` CI), trajectory regression diff, W3C OTel export & 10-rule MCP linter | `2.83 µs/span` (`353k spans/s`) · `90` tests |
 | **6. Code Repair** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer & 8-rule (`RH001`–`RH008`) anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `58` tests |
 | **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `67` tests |
 | **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `61` tests |
 
 ---
 
-## Featured Open-Source Projects (Twelve Primary Flagships · 714+ Verified Tests)
+## Featured Open-Source Projects (15 Flagship & Domain Systems · 825+ Verified Tests)
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🌟 Unified Flagship: <a href="https://github.com/codesphere-u/nexus-aegis">🛡️ Nexus Aegis v1.0 — Proof-Carrying Autonomous Agent Kernel &amp; RFC 6962 PR Attestation Engine</a></h3>
+      <p>Introduces <strong>Proof-Carrying Agent Execution (PCAE)</strong>: evaluates autonomous agent runs across 7 deterministic safety, budget, concurrency, trajectory, AST anti-reward-hacking, and citation-grounding gates in <code>0.27 ms</code> P50, and compiles an <strong>RFC 6962 domain-separated binary SHA-256 Merkle tree</strong> (<code>0x00</code> leaf / <code>0x01</code> internal node) with <code>O(log N)</code> selective-disclosure inclusion proofs and drop-in GitHub Pull Request Attestation Cards.</p>
+      <p>
+        <code>Python</code> <code>Proof-Carrying Code</code> <code>RFC 6962 Merkle Proofs</code> <code>7-Gate PCAE Kernel</code> <code>MCP JSON-RPC 2.0</code><br />
+        <a href="https://github.com/codesphere-u/nexus-aegis/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/nexus-aegis/actions">77 Passing Tests (100% Recall · 245/245 Merkle Proofs Verified)</a>
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>1. <a href="https://github.com/codesphere-u/swarmweaver">🐝 SwarmWeaver v1.0</a></h3>
@@ -131,21 +142,21 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **8 Model
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>5. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.0</a></h3>
-      <p><strong>Bi-Temporal Knowledge Graph &amp; Cross-Agent Memory MCP Server</strong></p>
-      <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession (<code>valid_from</code> / <code>valid_until</code>), hybrid BM25 + 2-hop graph activation, and token-budgeted context compilation.</p>
+      <h3>5. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.1</a></h3>
+      <p><strong>Bi-Temporal Knowledge Graph, Contradiction Auditor &amp; Cross-Agent Memory MCP Server</strong></p>
+      <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession, semantic/polarity contradiction auditing, TruthGate source export, and token-budgeted context compilation.</p>
       <p>
         <code>Python</code> <code>MCP JSON-RPC 2.0</code> <code>Bi-Temporal Graph</code> <code>BM25 RAG</code><br />
-        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">67 Passing Tests (100% Stale Suppression)</a>
+        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">84 Passing Tests (100% Stale Suppression)</a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>6. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.0</a></h3>
-      <p><strong>AI Agent Black-Box Flight Recorder &amp; MCP Tool-Smell Linter</strong></p>
-      <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, halts runaway <code>A↔B</code> tool loops in real time, and statically lints MCP tool schemas across 10 ergonomics rules (<code>TS001</code>–<code>TS010</code>).</p>
+      <h3>6. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.1</a></h3>
+      <p><strong>AI Agent Black-Box Flight Recorder, Trajectory Diff, OTel Exporter &amp; MCP Linter</strong></p>
+      <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, diffs baseline vs. candidate runs (Levenshtein/LCS), exports W3C OpenTelemetry spans to StackPulse, and lints MCP schemas across 10 rules (<code>TS001</code>–<code>TS010</code>).</p>
       <p>
-        <code>Python</code> <code>MCP Linter</code> <code>Deterministic Replay</code> <code>Trajectory Eval</code><br />
-        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">73 Passing Tests (353k spans/s)</a>
+        <code>Python</code> <code>MCP Linter</code> <code>Deterministic Replay</code> <code>OTel W3C Export</code><br />
+        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">90 Passing Tests (353k spans/s)</a>
       </p>
     </td>
   </tr>
@@ -249,7 +260,16 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **8 Model
 
 ## Open-Source Contributions & Community
 
-All flagship repositories are documented with architecture guides, ADRs, reproducible test suites, and scoped contributor issues:
+### Upstream Open-Source Bug Fixes & Engineering Contributions (110,000+ Combined ⭐)
+
+| Upstream Project | Issue Fixed | Root Cause & Engineering Solution | Live Fork Branch & Verification |
+| :--- | :--- | :--- | :--- |
+| **[`modelcontextprotocol/python-sdk`](https://github.com/modelcontextprotocol/python-sdk)** *(24.8k ⭐)* | [Issue #3803](https://github.com/modelcontextprotocol/python-sdk/issues/3803): *Tool results over 1 MiB fail over SSE* | Threaded configurable `max_sse_event_size: int \| None` through `sse_client` (`src/mcp/client/sse.py`) and `SseServerParameters` (`session_group.py`) with validation and 2 MiB payload regression tests. | [Branch `fix/issue-3803...`](https://github.com/codesphere-u/python-sdk/tree/fix/issue-3803-sse-client-max-event-size) · `43 passed` |
+| **[`PrefectHQ/fastmcp`](https://github.com/PrefectHQ/fastmcp)** *(28.3k ⭐)* | [Issue #6296](https://github.com/PrefectHQ/fastmcp/issues/6296): *OAuth redirect turns `myapp://` into `myapp:?`* | Preserved empty `//` authority on custom native-app URI schemes (`myapp://`, `myapp:///callback`) during `urllib.parse.urlunparse` query injection in `redirect_validation.py`. | [Branch `fix/issue-6296...`](https://github.com/codesphere-u/fastmcp/tree/fix/issue-6296-preserve-custom-scheme-empty-authority) · `64 passed` |
+| **[`Textualize/rich`](https://github.com/Textualize/rich)** *(57.7k ⭐)* | [Issue #4250](https://github.com/Textualize/rich/issues/4250): *`FileProxy.write()` returns `0` instead of char count* | Restored `io.TextIOBase.write()` contract in `rich/file_proxy.py` by capturing `len(text)` prior to newline partition consumption in `Live` stdout/stderr proxies. | [Branch `fix/issue-4250...`](https://github.com/codesphere-u/rich/tree/fix/issue-4250-fileproxy-write-return-length) · `5 passed` |
+
+### Flagship Repository Issues & Case Studies
+All 15 flagship repositories are documented with architecture guides, ADRs, reproducible test suites, and scoped contributor issues:
 - Browse open **`good first issue`** and **`help wanted`** tasks across [`cyber-dragon/issues`](https://github.com/codesphere-u/cyber-dragon/issues), [`auralis-local/issues`](https://github.com/codesphere-u/auralis-local/issues), [`agentshield/issues`](https://github.com/codesphere-u/agentshield/issues), and [`flowledger/issues`](https://github.com/codesphere-u/flowledger/issues).
 - Explore full architectural case studies and verified benchmark comparisons in the companion repository: **[`codesphere-portfolio`](https://github.com/codesphere-u/codesphere-portfolio)**.
 
