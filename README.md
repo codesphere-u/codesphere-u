@@ -69,12 +69,32 @@ My career has progressed from building foundational business software and indepe
 
 ---
 
-## Featured Open-Source Projects (Eight Primary Flagships · 463+ Verified Tests)
+## Featured Open-Source Projects (Ten Primary Flagships · 582+ Verified Tests)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>1. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.0</a></h3>
+      <h3>1. <a href="https://github.com/codesphere-u/patchpilot">🔧 PatchPilot v1.0</a></h3>
+      <p><strong>Autonomous Code Repair, AST Fault Localization &amp; Anti-Reward-Hacking Verifier</strong></p>
+      <p>Localizes software faults via stack-trace + AST call-graph + BM25 ranking (<code>100%</code> Top-1 accuracy across 25 scenarios, <code>96.6%</code> prompt token reduction), blocks reward-hacking patches (deleted tests, tautological asserts, broadened <code>except:</code>) across 8 AST rules (<code>RH001</code>–<code>RH008</code>, <code>100%</code> recall / <code>0%</code> FPR), and verifies repairs inside a SHA-256 transactional rollback sandbox.</p>
+      <p>
+        <code>Python</code> <code>AST Verifier</code> <code>SWE-bench Repair</code> <code>MCP JSON-RPC 2.0</code><br />
+        <a href="https://github.com/codesphere-u/patchpilot/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/patchpilot/actions">58 Passing Tests (100% Top-1 Localization)</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>2. <a href="https://github.com/codesphere-u/synapse-router">⚡ Synapse Router v1.0</a></h3>
+      <p><strong>Cost-Aware Multi-Model AI Agent Router, Cascade Escalator &amp; Semantic Cache</strong></p>
+      <p>Routes agent prompts across <code>FAST_LOCAL</code>, <code>BALANCED</code>, and <code>FRONTIER_REASONING</code> tiers using an 8-feature complexity classifier, confidence-gated cascade escalation (<code>90.59%</code> USD cost reduction, <code>0.74 ms</code> P50 routing latency), a 3-state circuit breaker (<code>100%</code> HTTP 429 failover), and a 64-bit SimHash semantic cache.</p>
+      <p>
+        <code>Python</code> <code>LLM Gateway</code> <code>Cascade Routing</code> <code>SimHash Cache</code> <code>MCP</code><br />
+        <a href="https://github.com/codesphere-u/synapse-router/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/synapse-router/actions">61 Passing Tests (90.59% Cost Reduction)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>3. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.0</a></h3>
       <p><strong>Bi-Temporal Knowledge Graph &amp; Cross-Agent Memory MCP Server</strong></p>
       <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession (<code>valid_from</code> / <code>valid_until</code>), hybrid BM25 + 2-hop graph activation, and token-budgeted context compilation.</p>
       <p>
@@ -83,7 +103,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>2. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.0</a></h3>
+      <h3>4. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.0</a></h3>
       <p><strong>AI Agent Black-Box Flight Recorder &amp; MCP Tool-Smell Linter</strong></p>
       <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, halts runaway <code>A↔B</code> tool loops in real time, and statically lints MCP tool schemas across 10 ergonomics rules (<code>TS001</code>–<code>TS010</code>).</p>
       <p>
@@ -94,7 +114,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>3. <a href="https://github.com/codesphere-u/cyber-dragon">🐉 Cyber Dragon v1.0</a></h3>
+      <h3>5. <a href="https://github.com/codesphere-u/cyber-dragon">🐉 Cyber Dragon v1.0</a></h3>
       <p><strong>Open-Source Community Cyber Defense Platform</strong></p>
       <p>Explainable, 100% SSRF-free heuristic platform for inspecting suspicious SMS messages, phishing URLs, IDN Punycode homographs, brand-impersonation domains (18+ African &amp; global brands), and Mobile Money / USSD diversion traps (<code>*21*</code>, <code>*165*</code>).</p>
       <p>
@@ -103,7 +123,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>4. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
+      <h3>6. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
       <p><strong>Privacy-First Local AI Workspace for Apple Silicon</strong></p>
       <p>Deliberate local AI assistant engineered for 16 GB Apple Silicon Macs. Combines streaming Ollama chat, local MLX/Whisper voice rooms, a line-aware <strong>Hybrid BM25 + Phrase RAG Knowledge Base</strong> with inline citations, and approval-gated workspace tools.</p>
       <p>
@@ -114,7 +134,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>5. <a href="https://github.com/codesphere-u/agentshield">🛡️ AgentShield v1.0</a></h3>
+      <h3>7. <a href="https://github.com/codesphere-u/agentshield">🛡️ AgentShield v1.0</a></h3>
       <p><strong>AI Agent Security &amp; Governance Framework (OWASP 2026)</strong></p>
       <p>Deterministic security firewall for autonomous AI agents. Features multi-layer prompt-injection &amp; RAG context-poisoning detection, capability allow/deny enforcement (Shell, Filesystem, SSRF, SQLi), secret egress redaction, and a SHA-256 hash-chained audit ledger.</p>
       <p>
@@ -123,7 +143,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>6. <a href="https://github.com/codesphere-u/ARGUS-AI">🏛️ ARGUS AI v2.1</a></h3>
+      <h3>8. <a href="https://github.com/codesphere-u/ARGUS-AI">🏛️ ARGUS AI v2.1</a></h3>
       <p><strong>Auditable Multi-Agent Decision &amp; Research System</strong></p>
       <p>7-agent Investment Committee orchestration where a dedicated <strong>Devil's Advocate Agent</strong> stress-tests theses and holds unilateral veto power. Includes a leakage-free walk-forward backtester with ATR slippage modeling, cryptographic Trade Passports, and an MCP server.</p>
       <p>
@@ -134,7 +154,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>7. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
+      <h3>9. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
       <p><strong>African Payment Orchestration &amp; Double-Entry Ledger</strong></p>
       <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles idempotent requests, HMAC webhook replay protection, simulated MTN MoMo &amp; Airtel Money adapters, and 3-way reconciliation.</p>
       <p>
@@ -143,7 +163,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>8. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
+      <h3>10. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
       <p><strong>Cloud Observability, Distributed Tracing &amp; SLO Lab</strong></p>
       <p>Self-hostable OpenTelemetry trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, tracks Google SRE multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
       <p>
