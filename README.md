@@ -77,17 +77,17 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 | :--- | :--- | :--- | :--- |
 | **0. Attestation Kernel** | **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** | 7-gate Proof-Carrying Agent Execution (PCAE) + RFC 6962 (`0x00`/`0x01`) SHA-256 Merkle proofs | `100%` recall (`0.27 ms` P50) · `245/245` proofs · `77` tests |
 | **1. Memory (`v1.1`)** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`), contradiction auditor & TruthGate export | `100%` stale-fact suppression · `84` tests |
-| **2. Routing** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), confidence cascade & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `61` tests |
+| **2. Routing (`v1.1`)** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), sliding-window rate governor & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `77` tests |
 | **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `65` tests |
 | **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `42` tests |
 | **5. Flight Recorder (`v1.1`)** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette replay (`$0` CI), trajectory regression diff, W3C OTel export & 10-rule MCP linter | `2.83 µs/span` (`353k spans/s`) · `90` tests |
-| **6. Code Repair** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer & 8-rule (`RH001`–`RH008`) anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `58` tests |
+| **6. Code Repair (`v1.1`)** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer, unified git diff parser & 8-rule anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `73` tests |
 | **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `67` tests |
 | **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `61` tests |
 
 ---
 
-## Featured Open-Source Projects (15 Flagship & Domain Systems · 825+ Verified Tests)
+## Featured Open-Source Projects (15 Flagship & Domain Systems · 856+ Verified Tests)
 
 <table>
   <tr>
@@ -122,21 +122,21 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>3. <a href="https://github.com/codesphere-u/patchpilot">🔧 PatchPilot v1.0</a></h3>
+      <h3>3. <a href="https://github.com/codesphere-u/patchpilot">🔧 PatchPilot v1.1</a></h3>
       <p><strong>Autonomous Code Repair, AST Fault Localization &amp; Anti-Reward-Hacking Verifier</strong></p>
-      <p>Localizes software faults via stack-trace + AST call-graph + BM25 ranking (<code>100%</code> Top-1 accuracy across 25 scenarios, <code>96.6%</code> prompt token reduction), blocks reward-hacking patches (deleted tests, tautological asserts, broadened <code>except:</code>) across 8 AST rules (<code>RH001</code>–<code>RH008</code>, <code>100%</code> recall / <code>0%</code> FPR), and verifies repairs inside a SHA-256 transactional rollback sandbox.</p>
+      <p>Localizes software faults via stack-trace + AST call-graph + BM25 ranking (<code>100%</code> Top-1 accuracy across 25 scenarios, <code>96.6%</code> prompt token reduction), parses multi-file unified git diffs, blocks reward-hacking patches across 8 AST rules (<code>RH001</code>–<code>RH008</code>, <code>100%</code> recall / <code>0%</code> FPR), and exports canonical Nexus Aegis G5 attestation leaves.</p>
       <p>
-        <code>Python</code> <code>AST Verifier</code> <code>SWE-bench Repair</code> <code>MCP JSON-RPC 2.0</code><br />
-        <a href="https://github.com/codesphere-u/patchpilot/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/patchpilot/actions">58 Passing Tests (100% Top-1 Localization)</a>
+        <code>Python</code> <code>AST Verifier</code> <code>Diff Parser</code> <code>Nexus Aegis G5</code> <code>MCP JSON-RPC 2.0</code><br />
+        <a href="https://github.com/codesphere-u/patchpilot/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/patchpilot/actions">73 Passing Tests (100% Top-1 Localization)</a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>4. <a href="https://github.com/codesphere-u/synapse-router">⚡ Synapse Router v1.0</a></h3>
-      <p><strong>Cost-Aware Multi-Model AI Agent Router, Cascade Escalator &amp; Semantic Cache</strong></p>
-      <p>Routes agent prompts across <code>FAST_LOCAL</code>, <code>BALANCED</code>, and <code>FRONTIER_REASONING</code> tiers using an 8-feature complexity classifier, confidence-gated cascade escalation (<code>90.59%</code> USD cost reduction, <code>0.74 ms</code> P50 routing latency), a 3-state circuit breaker (<code>100%</code> HTTP 429 failover), and a 64-bit SimHash semantic cache.</p>
+      <h3>4. <a href="https://github.com/codesphere-u/synapse-router">⚡ Synapse Router v1.1</a></h3>
+      <p><strong>Cost-Aware Multi-Model AI Agent Router, Sliding Rate Governor &amp; Aegis Bridge</strong></p>
+      <p>Routes agent prompts across <code>FAST_LOCAL</code>, <code>BALANCED</code>, and <code>FRONTIER_REASONING</code> tiers using an 8-feature complexity classifier, sliding-window RPM/TPM rate governor, confidence-gated cascade escalation (<code>90.59%</code> USD cost reduction, <code>0.74 ms</code> P50 routing latency), a 3-state circuit breaker (<code>100%</code> HTTP 429 failover), and canonical Nexus Aegis G2 leaf exports.</p>
       <p>
-        <code>Python</code> <code>LLM Gateway</code> <code>Cascade Routing</code> <code>SimHash Cache</code> <code>MCP</code><br />
-        <a href="https://github.com/codesphere-u/synapse-router/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/synapse-router/actions">61 Passing Tests (90.59% Cost Reduction)</a>
+        <code>Python</code> <code>LLM Gateway</code> <code>Rate Governor</code> <code>Nexus Aegis G2</code> <code>MCP</code><br />
+        <a href="https://github.com/codesphere-u/synapse-router/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/synapse-router/actions">77 Passing Tests (90.59% Cost Reduction)</a>
       </p>
     </td>
   </tr>
