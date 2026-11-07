@@ -69,12 +69,49 @@ My career has progressed from building foundational business software and indepe
 
 ---
 
-## Featured Open-Source Projects (Ten Primary Flagships · 582+ Verified Tests)
+## The Codesphere Agentic Stack (8-Layer Open-Source AI Agent Infrastructure)
+
+I design and maintain an interoperable, zero-cloud-dependency suite of **8 Model Context Protocol (MCP) & Autonomous Agent Infrastructure systems** addressing every failure mode of production AI agents:
+
+| Layer | Repository | Core Engineering Guarantee | Verified Proof |
+| :--- | :--- | :--- | :--- |
+| **1. Memory** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`) + hybrid BM25 & 2-hop recall | `100%` stale-fact suppression · `67` tests |
+| **2. Routing** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), confidence cascade & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `61` tests |
+| **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `65` tests |
+| **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `42` tests |
+| **5. Flight Recorder** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette recorder (`$0` CI replay), real-time loop breaker & 10-rule MCP schema linter | `2.83 µs/span` (`353k spans/s`) · `73` tests |
+| **6. Code Repair** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer & 8-rule (`RH001`–`RH008`) anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `58` tests |
+| **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `67` tests |
+| **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `61` tests |
+
+---
+
+## Featured Open-Source Projects (Twelve Primary Flagships · 714+ Verified Tests)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>1. <a href="https://github.com/codesphere-u/patchpilot">🔧 PatchPilot v1.0</a></h3>
+      <h3>1. <a href="https://github.com/codesphere-u/swarmweaver">🐝 SwarmWeaver v1.0</a></h3>
+      <p><strong>Multi-Agent DAG Orchestrator, File-Lease Conflict Guard &amp; Checkpoint Resume Engine</strong></p>
+      <p>Compiles multi-agent task graphs into conflict-free parallel execution waves via greedy graph coloring over read/write globs (<code>0</code> race conditions across 50 conflicting parallel tasks), enforces <code>SHARED_READ</code> / <code>EXCLUSIVE_WRITE</code> file leases, and journals completed nodes in a SHA-256 hash chain for <code>0.0072 ms/node</code> crash-safe resume (<code>70%</code> tokens saved).</p>
+      <p>
+        <code>Python</code> <code>DAG Scheduler</code> <code>File Leases</code> <code>Checkpoint Resume</code> <code>MCP</code><br />
+        <a href="https://github.com/codesphere-u/swarmweaver/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/swarmweaver/actions">65 Passing Tests (0 Race Conditions)</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>2. <a href="https://github.com/codesphere-u/truthgate">🔍 TruthGate v1.0</a></h3>
+      <p><strong>Deterministic Agent Hallucination Auditor, Citation Entailment &amp; AST Symbol Grounder</strong></p>
+      <p>Audits AI agent responses in <code>0.115 ms</code> P50 across 8 deterministic rules (<code>TG001</code>–<code>TG008</code>)—catching phantom citations, negation/antonym polarity inversions, numeric/currency drift, out-of-bounds line ranges, and hallucinated workspace AST symbols (<code>100%</code> recall, <code>0%</code> FPR)—and compiles surgical self-repair prompts.</p>
+      <p>
+        <code>Python</code> <code>Citation NLI</code> <code>AST Grounding</code> <code>LLM Guardrails</code> <code>MCP</code><br />
+        <a href="https://github.com/codesphere-u/truthgate/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/truthgate/actions">67 Passing Tests (100% Recall · 0% FPR)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>3. <a href="https://github.com/codesphere-u/patchpilot">🔧 PatchPilot v1.0</a></h3>
       <p><strong>Autonomous Code Repair, AST Fault Localization &amp; Anti-Reward-Hacking Verifier</strong></p>
       <p>Localizes software faults via stack-trace + AST call-graph + BM25 ranking (<code>100%</code> Top-1 accuracy across 25 scenarios, <code>96.6%</code> prompt token reduction), blocks reward-hacking patches (deleted tests, tautological asserts, broadened <code>except:</code>) across 8 AST rules (<code>RH001</code>–<code>RH008</code>, <code>100%</code> recall / <code>0%</code> FPR), and verifies repairs inside a SHA-256 transactional rollback sandbox.</p>
       <p>
@@ -83,7 +120,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>2. <a href="https://github.com/codesphere-u/synapse-router">⚡ Synapse Router v1.0</a></h3>
+      <h3>4. <a href="https://github.com/codesphere-u/synapse-router">⚡ Synapse Router v1.0</a></h3>
       <p><strong>Cost-Aware Multi-Model AI Agent Router, Cascade Escalator &amp; Semantic Cache</strong></p>
       <p>Routes agent prompts across <code>FAST_LOCAL</code>, <code>BALANCED</code>, and <code>FRONTIER_REASONING</code> tiers using an 8-feature complexity classifier, confidence-gated cascade escalation (<code>90.59%</code> USD cost reduction, <code>0.74 ms</code> P50 routing latency), a 3-state circuit breaker (<code>100%</code> HTTP 429 failover), and a 64-bit SimHash semantic cache.</p>
       <p>
@@ -94,7 +131,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>3. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.0</a></h3>
+      <h3>5. <a href="https://github.com/codesphere-u/cortex-mcp">🧠 Cortex MCP v1.0</a></h3>
       <p><strong>Bi-Temporal Knowledge Graph &amp; Cross-Agent Memory MCP Server</strong></p>
       <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession (<code>valid_from</code> / <code>valid_until</code>), hybrid BM25 + 2-hop graph activation, and token-budgeted context compilation.</p>
       <p>
@@ -103,7 +140,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>4. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.0</a></h3>
+      <h3>6. <a href="https://github.com/codesphere-u/agentflight">✈️ AgentFlight v1.0</a></h3>
       <p><strong>AI Agent Black-Box Flight Recorder &amp; MCP Tool-Smell Linter</strong></p>
       <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, halts runaway <code>A↔B</code> tool loops in real time, and statically lints MCP tool schemas across 10 ergonomics rules (<code>TS001</code>–<code>TS010</code>).</p>
       <p>
@@ -114,7 +151,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>5. <a href="https://github.com/codesphere-u/cyber-dragon">🐉 Cyber Dragon v1.0</a></h3>
+      <h3>7. <a href="https://github.com/codesphere-u/cyber-dragon">🐉 Cyber Dragon v1.0</a></h3>
       <p><strong>Open-Source Community Cyber Defense Platform</strong></p>
       <p>Explainable, 100% SSRF-free heuristic platform for inspecting suspicious SMS messages, phishing URLs, IDN Punycode homographs, brand-impersonation domains (18+ African &amp; global brands), and Mobile Money / USSD diversion traps (<code>*21*</code>, <code>*165*</code>).</p>
       <p>
@@ -123,7 +160,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>6. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
+      <h3>8. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
       <p><strong>Privacy-First Local AI Workspace for Apple Silicon</strong></p>
       <p>Deliberate local AI assistant engineered for 16 GB Apple Silicon Macs. Combines streaming Ollama chat, local MLX/Whisper voice rooms, a line-aware <strong>Hybrid BM25 + Phrase RAG Knowledge Base</strong> with inline citations, and approval-gated workspace tools.</p>
       <p>
@@ -134,7 +171,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>7. <a href="https://github.com/codesphere-u/agentshield">🛡️ AgentShield v1.0</a></h3>
+      <h3>9. <a href="https://github.com/codesphere-u/agentshield">🛡️ AgentShield v1.0</a></h3>
       <p><strong>AI Agent Security &amp; Governance Framework (OWASP 2026)</strong></p>
       <p>Deterministic security firewall for autonomous AI agents. Features multi-layer prompt-injection &amp; RAG context-poisoning detection, capability allow/deny enforcement (Shell, Filesystem, SSRF, SQLi), secret egress redaction, and a SHA-256 hash-chained audit ledger.</p>
       <p>
@@ -143,7 +180,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>8. <a href="https://github.com/codesphere-u/ARGUS-AI">🏛️ ARGUS AI v2.1</a></h3>
+      <h3>10. <a href="https://github.com/codesphere-u/ARGUS-AI">🏛️ ARGUS AI v2.1</a></h3>
       <p><strong>Auditable Multi-Agent Decision &amp; Research System</strong></p>
       <p>7-agent Investment Committee orchestration where a dedicated <strong>Devil's Advocate Agent</strong> stress-tests theses and holds unilateral veto power. Includes a leakage-free walk-forward backtester with ATR slippage modeling, cryptographic Trade Passports, and an MCP server.</p>
       <p>
@@ -154,7 +191,7 @@ My career has progressed from building foundational business software and indepe
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>9. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
+      <h3>11. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
       <p><strong>African Payment Orchestration &amp; Double-Entry Ledger</strong></p>
       <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles idempotent requests, HMAC webhook replay protection, simulated MTN MoMo &amp; Airtel Money adapters, and 3-way reconciliation.</p>
       <p>
@@ -163,7 +200,7 @@ My career has progressed from building foundational business software and indepe
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>10. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
+      <h3>12. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
       <p><strong>Cloud Observability, Distributed Tracing &amp; SLO Lab</strong></p>
       <p>Self-hostable OpenTelemetry trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, tracks Google SRE multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
       <p>
