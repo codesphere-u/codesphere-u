@@ -258,23 +258,6 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 
 ---
 
-## Open-Source Contributions & Community
-
-### Upstream Open-Source Bug Fixes & Engineering Contributions (110,000+ Combined ⭐)
-
-| Upstream Project | Issue Fixed | Root Cause & Engineering Solution | Live Fork Branch & Verification |
-| :--- | :--- | :--- | :--- |
-| **[`modelcontextprotocol/python-sdk`](https://github.com/modelcontextprotocol/python-sdk)** *(24.8k ⭐)* | [Issue #3803](https://github.com/modelcontextprotocol/python-sdk/issues/3803): *Tool results over 1 MiB fail over SSE* | Threaded configurable `max_sse_event_size: int \| None` through `sse_client` (`src/mcp/client/sse.py`) and `SseServerParameters` (`session_group.py`) with validation and 2 MiB payload regression tests. | [Branch `fix/issue-3803...`](https://github.com/codesphere-u/python-sdk/tree/fix/issue-3803-sse-client-max-event-size) · `43 passed` |
-| **[`PrefectHQ/fastmcp`](https://github.com/PrefectHQ/fastmcp)** *(28.3k ⭐)* | [Issue #6296](https://github.com/PrefectHQ/fastmcp/issues/6296): *OAuth redirect turns `myapp://` into `myapp:?`* | Preserved empty `//` authority on custom native-app URI schemes (`myapp://`, `myapp:///callback`) during `urllib.parse.urlunparse` query injection in `redirect_validation.py`. | [Branch `fix/issue-6296...`](https://github.com/codesphere-u/fastmcp/tree/fix/issue-6296-preserve-custom-scheme-empty-authority) · `64 passed` |
-| **[`Textualize/rich`](https://github.com/Textualize/rich)** *(57.7k ⭐)* | [Issue #4250](https://github.com/Textualize/rich/issues/4250): *`FileProxy.write()` returns `0` instead of char count* | Restored `io.TextIOBase.write()` contract in `rich/file_proxy.py` by capturing `len(text)` prior to newline partition consumption in `Live` stdout/stderr proxies. | [Branch `fix/issue-4250...`](https://github.com/codesphere-u/rich/tree/fix/issue-4250-fileproxy-write-return-length) · `5 passed` |
-
-### Flagship Repository Issues & Case Studies
-All 15 flagship repositories are documented with architecture guides, ADRs, reproducible test suites, and scoped contributor issues:
-- Browse open **`good first issue`** and **`help wanted`** tasks across [`cyber-dragon/issues`](https://github.com/codesphere-u/cyber-dragon/issues), [`auralis-local/issues`](https://github.com/codesphere-u/auralis-local/issues), [`agentshield/issues`](https://github.com/codesphere-u/agentshield/issues), and [`flowledger/issues`](https://github.com/codesphere-u/flowledger/issues).
-- Explore full architectural case studies and verified benchmark comparisons in the companion repository: **[`codesphere-portfolio`](https://github.com/codesphere-u/codesphere-portfolio)**.
-
----
-
 ## Current Engineering Focus
 
 - Expanding **Cyber Dragon** with multilingual East African community fraud response playbooks (`en`, `lg`, `sw`) and regional telecom/financial domain protections.
