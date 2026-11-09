@@ -171,12 +171,12 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>8. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.2</a></h3>
+      <h3>8. <a href="https://github.com/codesphere-u/auralis-local">✨ Auralis Local v0.3</a></h3>
       <p><strong>Privacy-First Local AI Workspace for Apple Silicon</strong></p>
-      <p>Deliberate local AI assistant engineered for 16 GB Apple Silicon Macs. Combines streaming Ollama chat, local MLX/Whisper voice rooms, a line-aware <strong>Hybrid BM25 + Phrase RAG Knowledge Base</strong> with inline citations, and approval-gated workspace tools.</p>
+      <p>Deliberate local AI assistant engineered for Apple Silicon Macs. Combines streaming Ollama chat, local MLX/Whisper voice rooms, offline <strong>PDF content stream extraction</strong>, a line-aware <strong>Hybrid BM25 + Phrase RAG Knowledge Base</strong> with inline citations, and automated M-series <strong>4K vs 8K memory pressure profiling</strong>.</p>
       <p>
         <code>TypeScript</code> <code>React 19</code> <code>Node.js</code> <code>Ollama</code> <code>MLX</code><br />
-        <a href="https://github.com/codesphere-u/auralis-local/blob/main/docs/architecture.md"><strong>Architecture Docs ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/auralis-local/actions">36 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/auralis-local/blob/main/docs/architecture.md"><strong>Architecture Docs ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/auralis-local/actions">47 Passing Tests</a>
       </p>
     </td>
   </tr>
@@ -202,21 +202,21 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>11. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.0</a></h3>
+      <h3>11. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.1</a></h3>
       <p><strong>African Payment Orchestration &amp; Double-Entry Ledger</strong></p>
-      <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles idempotent requests, HMAC webhook replay protection, simulated MTN MoMo &amp; Airtel Money adapters, and 3-way reconciliation.</p>
+      <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles ISO 20022 CAMT.053 XML statement parsing, CSV reconciliation exports, marketplace escrow holds, MCP financial tools, and 3-way reconciliation.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>Double-Entry Ledger</code> <code>Fintech</code><br />
-        <a href="https://github.com/codesphere-u/flowledger/blob/main/docs/architecture.md"><strong>Ledger Invariants ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">51 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/flowledger/blob/main/docs/architecture.md"><strong>Ledger Invariants ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">66 Passing Tests</a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>12. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.0</a></h3>
+      <h3>12. <a href="https://github.com/codesphere-u/stackpulse">📈 StackPulse v1.1</a></h3>
       <p><strong>Cloud Observability, Distributed Tracing &amp; SLO Lab</strong></p>
-      <p>Self-hostable OpenTelemetry trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, tracks Google SRE multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
+      <p>Self-hostable OpenTelemetry OTLP/HTTP (<code>/v1/traces</code>) trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, dispatches webhook alerts on multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>OpenTelemetry</code> <code>Docker</code> <code>SRE</code><br />
-        <a href="https://github.com/codesphere-u/stackpulse/blob/main/docs/architecture.md"><strong>SRE Architecture ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/stackpulse/actions">47 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/stackpulse/blob/main/docs/architecture.md"><strong>SRE Architecture ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/stackpulse/actions">65 Passing Tests</a>
       </p>
     </td>
   </tr>
