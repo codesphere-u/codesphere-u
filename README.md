@@ -87,7 +87,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 
 ---
 
-## Featured Open-Source Projects (15 Flagship & Domain Systems · 856+ Verified Tests)
+## Featured Open-Source Projects (15 Flagship & Domain Systems · 928 Verified Tests)
 
 <table>
   <tr>
@@ -202,12 +202,12 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>11. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v1.1</a></h3>
-      <p><strong>African Payment Orchestration &amp; Double-Entry Ledger</strong></p>
-      <p>Institutional payment state machine and integer minor-unit double-entry accounting engine (<code>UGX</code>, <code>KES</code>, <code>NGN</code>, <code>USD</code>). Handles ISO 20022 CAMT.053 XML statement parsing, CSV reconciliation exports, marketplace escrow holds, MCP financial tools, and 3-way reconciliation.</p>
+      <h3>11. <a href="https://github.com/codesphere-u/flowledger">💳 FlowLedger v2.0</a></h3>
+      <p><strong>Pan-African Interledger Engine &amp; Double-Entry Reconciliation System</strong></p>
+      <p>Institutional payment orchestration and integer minor-unit double-entry engine across 12 currencies (including <code>XOF</code>, <code>XAF</code>, <code>GHS</code>, <code>ZAR</code>, <code>USDC</code>). Handles Safaricom M-Pesa Daraja 2.0 (STK Push, C2B, B2C), ISO 20022 messaging (<code>pacs.008</code>, <code>pacs.002</code>, <code>camt.053</code>), rate-locked cross-border FX corridors, offline-first cryptographic vouchers, SQLite WAL persistence, and RFC 6962 Merkle audit proofs.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>Double-Entry Ledger</code> <code>Fintech</code><br />
-        <a href="https://github.com/codesphere-u/flowledger/blob/main/docs/architecture.md"><strong>Ledger Invariants ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">66 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/flowledger/blob/main/docs/architecture.md"><strong>Ledger Invariants ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">94 Passing Tests</a>
       </p>
     </td>
     <td width="50%" valign="top">
