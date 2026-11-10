@@ -87,7 +87,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 
 ---
 
-## Featured Open-Source Projects (15 Flagship & Domain Systems · 931 Verified Tests)
+## Featured Open-Source Projects (15 Flagship & Domain Systems · 937 Verified Tests)
 
 <table>
   <tr>
@@ -147,7 +147,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession, semantic/polarity contradiction auditing, TruthGate source export, and token-budgeted context compilation.</p>
       <p>
         <code>Python</code> <code>MCP JSON-RPC 2.0</code> <code>Bi-Temporal Graph</code> <code>BM25 RAG</code><br />
-        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">85 Passing Tests (100% Stale Suppression)</a>
+        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">87 Passing Tests (100% Stale Suppression)</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -156,7 +156,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, diffs baseline vs. candidate runs (Levenshtein/LCS), exports W3C OpenTelemetry spans to StackPulse, and lints MCP schemas across 10 rules (<code>TS001</code>–<code>TS010</code>).</p>
       <p>
         <code>Python</code> <code>MCP Linter</code> <code>Deterministic Replay</code> <code>OTel W3C Export</code><br />
-        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">91 Passing Tests (353k spans/s)</a>
+        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">93 Passing Tests (353k spans/s)</a>
       </p>
     </td>
   </tr>
@@ -207,7 +207,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Institutional payment orchestration and integer minor-unit double-entry engine across 12 currencies (including <code>XOF</code>, <code>XAF</code>, <code>GHS</code>, <code>ZAR</code>, <code>USDC</code>). Handles Safaricom M-Pesa Daraja 2.0 (STK Push, C2B, B2C), ISO 20022 messaging (<code>pacs.008</code>, <code>pacs.002</code>, <code>camt.053</code>), rate-locked cross-border FX corridors, offline-first cryptographic vouchers, SQLite WAL persistence, and RFC 6962 Merkle audit proofs.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>Double-Entry Ledger</code> <code>Fintech</code><br />
-        <a href="https://github.com/codesphere-u/flowledger/releases/tag/v2.0.0"><strong>Release v2.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">95 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/flowledger/releases/tag/v2.0.0"><strong>Release v2.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">97 Passing Tests</a>
       </p>
     </td>
     <td width="50%" valign="top">
