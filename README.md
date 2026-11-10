@@ -76,12 +76,12 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 | Layer | Repository | Core Engineering Guarantee | Verified Proof |
 | :--- | :--- | :--- | :--- |
 | **0. Attestation Kernel** | **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** | 7-gate Proof-Carrying Agent Execution (PCAE) + RFC 6962 (`0x00`/`0x01`) SHA-256 Merkle proofs | `100%` recall (`0.27 ms` P50) · `245/245` proofs · `77` tests |
-| **1. Memory (`v1.1`)** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`), contradiction auditor & TruthGate export | `100%` stale-fact suppression · `84` tests |
-| **2. Routing (`v1.1`)** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), sliding-window rate governor & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `77` tests |
+| **1. Memory (`v1.1`)** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`), contradiction auditor, live portal & TruthGate export | `100%` stale-fact suppression · `100` tests |
+| **2. Routing (`v1.1`)** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), sliding-window rate governor & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `93` tests |
 | **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `65` tests |
 | **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `42` tests |
-| **5. Flight Recorder (`v1.1`)** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette replay (`$0` CI), trajectory regression diff, W3C OTel export & 10-rule MCP linter | `2.83 µs/span` (`353k spans/s`) · `90` tests |
-| **6. Code Repair (`v1.1`)** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer, unified git diff parser & 8-rule anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `73` tests |
+| **5. Flight Recorder (`v1.1`)** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette replay (`$0` CI), trajectory regression diff, W3C OTel export & 10-rule MCP linter | `2.83 µs/span` (`353k spans/s`) · `109` tests |
+| **6. Code Repair (`v1.1`)** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer, unified git diff parser & 8-rule anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `89` tests |
 | **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `67` tests |
 | **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `61` tests |
 
@@ -127,7 +127,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Localizes software faults via stack-trace + AST call-graph + BM25 ranking (<code>100%</code> Top-1 accuracy across 25 scenarios, <code>96.6%</code> prompt token reduction), parses multi-file unified git diffs, blocks reward-hacking patches across 8 AST rules (<code>RH001</code>–<code>RH008</code>, <code>100%</code> recall / <code>0%</code> FPR), and exports canonical Nexus Aegis G5 attestation leaves.</p>
       <p>
         <code>Python</code> <code>AST Verifier</code> <code>Diff Parser</code> <code>Nexus Aegis G5</code> <code>MCP JSON-RPC 2.0</code><br />
-        <a href="https://github.com/codesphere-u/patchpilot/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/patchpilot/actions">73 Passing Tests (100% Top-1 Localization)</a>
+        <a href="https://github.com/codesphere-u/patchpilot/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/patchpilot/actions">89 Passing Tests (100% Top-1 Localization)</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -136,7 +136,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Routes agent prompts across <code>FAST_LOCAL</code>, <code>BALANCED</code>, and <code>FRONTIER_REASONING</code> tiers using an 8-feature complexity classifier, sliding-window RPM/TPM rate governor, confidence-gated cascade escalation (<code>90.59%</code> USD cost reduction, <code>0.74 ms</code> P50 routing latency), a 3-state circuit breaker (<code>100%</code> HTTP 429 failover), and canonical Nexus Aegis G2 leaf exports.</p>
       <p>
         <code>Python</code> <code>LLM Gateway</code> <code>Rate Governor</code> <code>Nexus Aegis G2</code> <code>MCP</code><br />
-        <a href="https://github.com/codesphere-u/synapse-router/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/synapse-router/actions">77 Passing Tests (90.59% Cost Reduction)</a>
+        <a href="https://github.com/codesphere-u/synapse-router/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/synapse-router/actions">93 Passing Tests (90.59% Cost Reduction)</a>
       </p>
     </td>
   </tr>
@@ -147,7 +147,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Zero-cloud Model Context Protocol (JSON-RPC 2.0) server that eliminates context amnesia across Claude Code, Cursor, Windsurf, and Antigravity using bi-temporal fact supersession, semantic/polarity contradiction auditing, TruthGate source export, and token-budgeted context compilation.</p>
       <p>
         <code>Python</code> <code>MCP JSON-RPC 2.0</code> <code>Bi-Temporal Graph</code> <code>BM25 RAG</code><br />
-        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">87 Passing Tests (100% Stale Suppression)</a>
+        <a href="https://github.com/codesphere-u/cortex-mcp/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cortex-mcp/actions">100 Passing Tests (100% Stale Suppression)</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -156,7 +156,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Records multi-step agent trajectories into SHA-256 hash-chained cassettes for <code>2.83 µs/span</code> (<code>$0</code>) deterministic CI replay, diffs baseline vs. candidate runs (Levenshtein/LCS), exports W3C OpenTelemetry spans to StackPulse, and lints MCP schemas across 10 rules (<code>TS001</code>–<code>TS010</code>).</p>
       <p>
         <code>Python</code> <code>MCP Linter</code> <code>Deterministic Replay</code> <code>OTel W3C Export</code><br />
-        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">93 Passing Tests (353k spans/s)</a>
+        <a href="https://github.com/codesphere-u/agentflight/releases/tag/v1.1.0"><strong>Release v1.1.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentflight/actions">109 Passing Tests (353k spans/s)</a>
       </p>
     </td>
   </tr>
