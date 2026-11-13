@@ -75,19 +75,19 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
 
 | Layer | Repository | Core Engineering Guarantee | Verified Proof |
 | :--- | :--- | :--- | :--- |
-| **0. Attestation Kernel** | **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** | 7-gate Proof-Carrying Agent Execution (PCAE) + RFC 6962 (`0x00`/`0x01`) SHA-256 Merkle proofs | `100%` recall (`0.27 ms` P50) · `245/245` proofs · `77` tests |
+| **0. Attestation Kernel** | **[`nexus-aegis`](https://github.com/codesphere-u/nexus-aegis)** | 7-gate Proof-Carrying Agent Execution (PCAE) + RFC 6962 (`0x00`/`0x01`) SHA-256 Merkle proofs | `100%` recall (`0.27 ms` P50) · `245/245` proofs · `87` tests |
 | **1. Memory (`v1.1`)** | **[`cortex-mcp`](https://github.com/codesphere-u/cortex-mcp)** | Bi-temporal knowledge graph (`valid_from` / `valid_until`), contradiction auditor, live portal & TruthGate export | `100%` stale-fact suppression · `104` tests |
 | **2. Routing (`v1.1`)** | **[`synapse-router`](https://github.com/codesphere-u/synapse-router)** | Pareto cost/latency router (`FAST_LOCAL` → `FRONTIER`), sliding-window rate governor & SimHash cache | `90.59%` USD cost saved · `0.74 ms` P50 · `96` tests |
-| **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `65` tests |
-| **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `42` tests |
+| **3. Swarm DAG** | **[`swarmweaver`](https://github.com/codesphere-u/swarmweaver)** | Conflict-aware parallel wave planner, file-scope RW/WW leases & SHA-256 crash-safe resume | `0` race conditions · `70%` tokens saved · `70` tests |
+| **4. Security** | **[`agentshield`](https://github.com/codesphere-u/agentshield)** | OWASP 2026 prompt-injection detector, capability firewall (Shell/FS/SSRF/SQLi) & egress redactor | `100%` recall / `0%` FPR (25 scenarios) · `49` tests |
 | **5. Flight Recorder (`v1.4`)** | **[`agentflight`](https://github.com/codesphere-u/agentflight)** | SHA-256 cassette replay (`$0` CI), trajectory regression diff, W3C OTel export & 10-rule MCP linter | `2.83 µs/span` (`353k spans/s`) · `167` tests |
 | **6. Code Repair (`v1.1`)** | **[`patchpilot`](https://github.com/codesphere-u/patchpilot)** | Stack-trace + AST call-graph fault localizer, unified git diff parser & 8-rule anti-reward-hacking guard | `100%` Top-1 (`-96.6%` tokens) · `92` tests |
-| **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `67` tests |
-| **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `62` tests |
+| **7. Grounding** | **[`truthgate`](https://github.com/codesphere-u/truthgate)** | Deterministic citation-span NLI entailment, polarity/numeric verifier & AST symbol grounder (`TG001`–`TG008`) | `100%` precision/recall (`0.115 ms` P50) · `75` tests |
+| **8. Governance** | **[`ARGUS-AI`](https://github.com/codesphere-u/ARGUS-AI)** | 7-agent adversarial deliberation committee with unilateral Devil's Advocate veto & `PointInTimeGuard` | `100%` trap veto precision · `77` tests |
 
 ---
 
-## Featured Open-Source Projects (15 Flagship & Domain Systems · 1,067 Verified Tests)
+## Featured Open-Source Projects (15 Flagship & Domain Systems · 1,144 Verified Tests)
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Introduces <strong>Proof-Carrying Agent Execution (PCAE)</strong>: evaluates autonomous agent runs across 7 deterministic safety, budget, concurrency, trajectory, AST anti-reward-hacking, and citation-grounding gates in <code>0.27 ms</code> P50, and compiles an <strong>RFC 6962 domain-separated binary SHA-256 Merkle tree</strong> (<code>0x00</code> leaf / <code>0x01</code> internal node) with <code>O(log N)</code> selective-disclosure inclusion proofs and drop-in GitHub Pull Request Attestation Cards.</p>
       <p>
         <code>Python</code> <code>Proof-Carrying Code</code> <code>RFC 6962 Merkle Proofs</code> <code>7-Gate PCAE Kernel</code> <code>MCP JSON-RPC 2.0</code><br />
-        <a href="https://github.com/codesphere-u/nexus-aegis/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/nexus-aegis/actions">77 Passing Tests (100% Recall · 245/245 Merkle Proofs Verified)</a>
+        <a href="https://github.com/codesphere-u/nexus-aegis/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/nexus-aegis/actions">87 Passing Tests (100% Recall · 245/245 Merkle Proofs Verified)</a>
       </p>
     </td>
   </tr>
@@ -107,7 +107,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Compiles multi-agent task graphs into conflict-free parallel execution waves via greedy graph coloring over read/write globs (<code>0</code> race conditions across 50 conflicting parallel tasks), enforces <code>SHARED_READ</code> / <code>EXCLUSIVE_WRITE</code> file leases, and journals completed nodes in a SHA-256 hash chain for <code>0.0072 ms/node</code> crash-safe resume (<code>70%</code> tokens saved).</p>
       <p>
         <code>Python</code> <code>DAG Scheduler</code> <code>File Leases</code> <code>Checkpoint Resume</code> <code>MCP</code><br />
-        <a href="https://github.com/codesphere-u/swarmweaver/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/swarmweaver/actions">65 Passing Tests (0 Race Conditions)</a>
+        <a href="https://github.com/codesphere-u/swarmweaver/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/swarmweaver/actions">70 Passing Tests (0 Race Conditions)</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -116,7 +116,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Audits AI agent responses in <code>0.115 ms</code> P50 across 8 deterministic rules (<code>TG001</code>–<code>TG008</code>)—catching phantom citations, negation/antonym polarity inversions, numeric/currency drift, out-of-bounds line ranges, and hallucinated workspace AST symbols (<code>100%</code> recall, <code>0%</code> FPR)—and compiles surgical self-repair prompts.</p>
       <p>
         <code>Python</code> <code>Citation NLI</code> <code>AST Grounding</code> <code>LLM Guardrails</code> <code>MCP</code><br />
-        <a href="https://github.com/codesphere-u/truthgate/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/truthgate/actions">67 Passing Tests (100% Recall · 0% FPR)</a>
+        <a href="https://github.com/codesphere-u/truthgate/releases/tag/v1.0.0"><strong>Release v1.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/truthgate/actions">75 Passing Tests (100% Recall · 0% FPR)</a>
       </p>
     </td>
   </tr>
@@ -167,7 +167,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Explainable, 100% SSRF-free heuristic platform for inspecting suspicious SMS messages, phishing URLs, IDN Punycode homographs, brand-impersonation domains (18+ African &amp; global brands), and Mobile Money / USSD diversion traps (<code>*21*</code>, <code>*165*</code>).</p>
       <p>
         <code>TypeScript</code> <code>Next.js 15</code> <code>Python</code> <code>FastAPI</code> <code>CLI</code><br />
-        <a href="https://cyber-dragon-ivory.vercel.app"><strong>Live Workbench ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cyber-dragon/actions">21 Passing Tests</a>
+        <a href="https://cyber-dragon-ivory.vercel.app"><strong>Live Workbench ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/cyber-dragon/actions">25 Passing Tests</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -187,7 +187,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Deterministic security firewall for autonomous AI agents. Features multi-layer prompt-injection &amp; RAG context-poisoning detection, capability allow/deny enforcement (Shell, Filesystem, SSRF, SQLi), secret egress redaction, and a SHA-256 hash-chained audit ledger.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>Pydantic v2</code> <code>OWASP 2026</code> <code>CLI</code><br />
-        <a href="https://github.com/codesphere-u/agentshield/blob/main/docs/architecture.md"><strong>Security Spec ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentshield/actions">42 Passing Tests (100% Recall)</a>
+        <a href="https://github.com/codesphere-u/agentshield/blob/main/docs/architecture.md"><strong>Security Spec ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/agentshield/actions">49 Passing Tests (100% Recall)</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -196,7 +196,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>7-agent Investment Committee orchestration where a dedicated <strong>Devil's Advocate Agent</strong> stress-tests theses and holds unilateral veto power. Includes a leakage-free walk-forward backtester with ATR slippage modeling, cryptographic Trade Passports, and an MCP server.</p>
       <p>
         <code>Python</code> <code>Multi-Agent Systems</code> <code>MCP</code> <code>Pydantic</code><br />
-        <a href="https://github.com/codesphere-u/ARGUS-AI/blob/main/docs/BACKTEST_VERIFICATION_REPORT.md"><strong>Backtest Report ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/ARGUS-AI/actions">62 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/ARGUS-AI/blob/main/docs/BACKTEST_VERIFICATION_REPORT.md"><strong>Backtest Report ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/ARGUS-AI/actions">77 Passing Tests</a>
       </p>
     </td>
   </tr>
@@ -207,7 +207,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Institutional payment orchestration and integer minor-unit double-entry engine across 12 currencies (including <code>XOF</code>, <code>XAF</code>, <code>GHS</code>, <code>ZAR</code>, <code>USDC</code>). Handles Safaricom M-Pesa Daraja 2.0 (STK Push, C2B, B2C), ISO 20022 messaging (<code>pacs.008</code>, <code>pacs.002</code>, <code>camt.053</code>), rate-locked cross-border FX corridors, offline-first cryptographic vouchers, SQLite WAL persistence, and RFC 6962 Merkle audit proofs.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>Double-Entry Ledger</code> <code>Fintech</code><br />
-        <a href="https://github.com/codesphere-u/flowledger/releases/tag/v2.0.0"><strong>Release v2.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">97 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/flowledger/releases/tag/v2.0.0"><strong>Release v2.0.0 ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/flowledger/actions">103 Passing Tests</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -216,7 +216,7 @@ I design and maintain an interoperable, zero-cloud-dependency suite of **9 Model
       <p>Self-hostable OpenTelemetry OTLP/HTTP (<code>/v1/traces</code>) trace DAG analyzer that computes critical-path latency bottlenecks (<code>51.2 µs/trace</code>), catches ORM N+1 query regressions, dispatches webhook alerts on multi-window SLO error-budget burn rates, and generates blameless postmortems.</p>
       <p>
         <code>Python</code> <code>FastAPI</code> <code>OpenTelemetry</code> <code>Docker</code> <code>SRE</code><br />
-        <a href="https://github.com/codesphere-u/stackpulse/blob/main/docs/architecture.md"><strong>SRE Architecture ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/stackpulse/actions">65 Passing Tests</a>
+        <a href="https://github.com/codesphere-u/stackpulse/blob/main/docs/architecture.md"><strong>SRE Architecture ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/codesphere-u/stackpulse/actions">83 Passing Tests</a>
       </p>
     </td>
   </tr>
